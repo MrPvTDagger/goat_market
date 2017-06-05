@@ -662,7 +662,7 @@ class WeaponShops {
 			{ "150Rnd_556x45_Drum_Mag_Tracer_F", "", 15, 7, "" },
 			{ "SMA_150Rnd_762_M80A1", "", 15, 7, "" },
 			{ "SMA_150Rnd_762_M80A1_Tracer", "", 20, 10, "" },
-			{ "SMA_150Rnd_762_M80A1_Mixed", "", 20, 10, "" }
+			{ "SMA_150Rnd_762_M80A1_Mixed", "", 20, 10, "" },
 			{ "130Rnd_338_Mag", "", 12, 6, "" },
 			{ "150Rnd_93x64_Mag", "", 15, 7, "" },
 			{ "200Rnd_556x45_Box_F", "", 10, 5, "" },
@@ -960,51 +960,5 @@ class WeaponShops {
 			{ "tf47_optic_smaw", "", 500, 250, "" }
         };
         };
-		ammo[]= {
-       
-	   };
-        optics[] = {
-            { "optic_Arco", "", 1850, 925, "" },
-			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
-			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
-			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
-			{ "SMA_ELCAN_SPECTER_ARDRDS", "", 2300, 1150, "" },
-			{ "SMA_ELCAN_SPECTER_TAN_ARDRDS", "", 2300, 1150, "" },
-			{ "SMA_ELCAN_SPECTER_GREEN_ARDRDS", "", 2300, 1150, "" },
-			{ "SMA_ELCAN_SPECTER_RDS", "", 2300, 1150, "" },
-			{ "SMA_ELCAN_SPECTER_TAN_RDS", "", 2300, 1150, "" },			
-			{ "SMA_ELCAN_SPECTER_GREEN_RDS", "", 2300, 1150, "" },
-			{ "SMA_MICRO_T2", "", 800, 400, "" },
-			{ "SMA_MICRO_T2_LM", "", 800, 400, "" },
-			{ "SMA_MICRO_T2_3XDOWN", "", 800, 400, "" },
-			{ "SMA_eotech", "", 1000, 500, "" },
-			{ "SMA_eotech_T", "", 1000, 500, "" },
-			{ "SMA_eotech_G", "", 1000, 500, "" },
-			{ "SMA_eotechG33_3XDOWN", "", 1000, 500, "" },
-			{ "SMA_eotechG33_tan_3XDOWN", "", 1000, 500, "" },
-			{ "SMA_eotechG33_grn_3XDOWN", "", 1000, 500, "" },
-			{ "SMA_eotech552", "", 1000, 500, "" },
-			{ "SMA_eotech552_kf", "", 1000, 500, "" },
-			{ "SMA_eotech552_kf_des", "", 1000, 500, "" },
-			{ "SMA_eotech552_kf_wdl", "", 1000, 500, "" },
-			{ "SMA_eotech552_3XDOWN", "", 1000, 500, "" },
-			{ "SMA_eotech552_3XDOWN_wdl", "", 1000, 500, "" },
-			{ "SMA_eotech552_3XDOWN_des", "", 1000, 500, "" },
-			{ "sma_spitfire_01_sc_black", "", 1600, 800, "" },
-			{ "sma_spitfire_01_black", "", 1600, 800, "" },
-			{ "sma_spitfire_03_sc_black", "", 1600, 800, "" },
-			{ "sma_spitfire_03_black", "", 1600, 800, "" },
-			{ "sma_spitfire_03_rds_black", "", 2000, 1000, "" },
-	        { "sma_spitfire_03_rds_low_black", "", 2000, 1000, "" },
-	        { "sma_spitfire_03_rds_low_ard_black", "", 2000, 1000, "" },
-			{ "optic_MRCO", "", 1850, 925, "" },
-			{ "optic_Holosight", "", 600, 300, "" },
-			{ "optic_Hamr", "", 2250, 1125, "" },
-			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
-			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
-			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
-		
-		};
-		
     };
 };
