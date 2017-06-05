@@ -444,7 +444,7 @@ class WeaponShops {
 			{ "SMA_30Rnd_68x43_SPC_FMJ", "", 10, 5, "" },
 			{ "SMA_30Rnd_68x43_SPC_FMJ_Tracer", "", 15, 7, "" },
 			{ "SMA_30Rnd_68x43_SPC_FMJ_IR", "", 20, 10, "" },
-			{ "SMA_30Rnd_68x43_BT", "", 12, 6 "" },
+			{ "SMA_30Rnd_68x43_BT", "", 12, 6, "" },
 			{ "SMA_30Rnd_68x43_BT_Tracer", "", 17, 8, "" },
 			{ "SMA_30Rnd_68x43_BT_IR", "", 22, 11, "" },
 			{ "SMA_30Rnd_68x43_sub", "", 12, 6, "" },
