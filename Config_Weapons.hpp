@@ -314,7 +314,6 @@ class WeaponShops {
 		};
 		launchers[] = {
 			{ "tf47_m3maaws", "", 1000, 1000, "" },
-			{ "tf47_optic_m3maaws", "", 100, 100, "" },
 			{ "tf47_at4_heat", "", 3500, 1750, "" },
 			{ "tf47_at4_hedp", "", 3500, 1750, "" },
 			{ "tf47_at4_hp", "", 3500, 1750, "" },
@@ -457,6 +456,8 @@ class WeaponShops {
 	   };
         optics[] = {
             { "optic_Arco", "", 1850, 925, "" },
+			{ "tf47_optic_m3maaws", "", 600, 300, "" },
+			{ "tf47_optic_smaw", "", 500, 250, "" },
 			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
@@ -490,10 +491,24 @@ class WeaponShops {
 	        { "sma_spitfire_03_rds_low_black", "", 2000, 1000, "" },
 	        { "sma_spitfire_03_rds_low_ard_black", "", 2000, 1000, "" },
 			{ "optic_MRCO", "", 1850, 925, "" },
+			{ "optic_Holosight", "", 600, 300, "" },
 			{ "optic_Hamr", "", 2250, 1125, "" },
 			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
 			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
-			{ "optic_ERCO_snd_F", "", 2500, 1250, "" }	
+			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
+			{ "optic_LRPS", "", 3000, 1500, "" }, // SNIPER SCOPES BELOW.
+			{ "optic_AMS", "", 3500, 1250, "" },
+			{ "optic_AMS_khk", "", 3500, 1250, "" },
+			{ "optic_AMS_snd", "", 3500, 1250, "" },
+			{ "optic_KHS_blk", "", 4000, 2000, "" },
+			{ "optic_KHS_hex", "", 4000, 2000, "" },
+			{ "optic_KHS_tan", "", 4000, 2000, "" },
+			{ "optic_Nightstalker", "", 10500, 5250, "" },
+			{ "optic_tws", "", 9000, 4500, "" },
+			{ "optic_tws_mg", "", 9000, 4500, "" },
+			{ "optic_DMS", "", 3050, 1525, "" },
+			{ "optic_NVS", "", 9500, 4750, "" },
+			{ "optic_SOS", "", 1250, 625, "" }
 		
 		};
 		suppressors[] = {
