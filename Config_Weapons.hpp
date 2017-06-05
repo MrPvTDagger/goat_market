@@ -28,7 +28,20 @@ class WeaponShops {
         items[] = {
             { "Binocular", "", 20, 10, "" },
             { "ItemGPS", "", 20, 10, "" },
-            { "NVGoggles", "", 100, 50, "" },	
+            { "NVGoggles", "", 100, 50, "" },
+			{ "TFAR_anprc152", "", 2, 1, "" },
+			{ "TFAR_rf7800str", "", 2, 1, "" },
+			{ "TF_rt1523g", "", 2, 1, "" },
+			{ "TF_rt1523g_big", "", 2, 1, "" },
+			{ "TF_rt1523g_black", "", 2, 1, "" },
+			{ "TF_rt1523g_fabric", "", 2, 1, "" },
+			{ "TF_rt1523g_green", "", 2, 1, "" },
+			{ "TF_rt1523g_rhs", "", 2, 1, "" },
+			{ "TF_rt1523g_sage", "", 2, 1, "" },
+			{ "TF_rt1523g_big_bwmod", "", 2, 1, "" },
+			{ "TF_rt1523g_big_bwmod_tropen", "", 2, 1, "" },
+			{ "TF_rt1523g_big_rhs" "", 2, 1, "" },
+			{ "TF_anarc210" "", 2, 1, "" }
         
 		};
 		rifles[] = {
