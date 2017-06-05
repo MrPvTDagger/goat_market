@@ -40,8 +40,8 @@ class WeaponShops {
 			{ "TF_rt1523g_sage", "", 2, 1, "" },
 			{ "TF_rt1523g_big_bwmod", "", 2, 1, "" },
 			{ "TF_rt1523g_big_bwmod_tropen", "", 2, 1, "" },
-			{ "TF_rt1523g_big_rhs" "", 2, 1, "" },
-			{ "TF_anarc210" "", 2, 1, "" }
+			{ "TF_rt1523g_big_rhs", "", 2, 1, "" },
+			{ "TF_anarc210", "", 2, 1, "" }
         
 		};
 		rifles[] = {
@@ -348,19 +348,20 @@ class WeaponShops {
 			{ "10Rnd_762x54_Mag", "", 15, 7, "" },
 			{ "20Rnd_762x51_Mag", "", 15, 7, "" },
 			{ "5Rnd_127x108_Mag", "", 18, 9, "" },
-			{ "5Rnd_127X108_APDS_Mag", "" 28, 14, "" },
-			{ "7Rnd_408_Mag", "" 18, 9, "" },
-			{ "200Rnd_65x39_cased_Box", "" 12, 6, "" },
+			{ "5Rnd_127X108_APDS_Mag", "", 28, 14, "" },
+			{ "7Rnd_408_Mag", "", 18, 9, "" },
+			{ "200Rnd_65x39_cased_Box", "", 12, 6, "" },
 			{ "200Rnd_65x39_cased_Box_Tracer", "", 17, 8, "" },
 			{ "150Rnd_762x54_Box", "", 15, 8, "" },
-			{ "150Rnd_762x54_Box_Tracer", 20, 10, "" },
+			{ "150Rnd_762x54_Box_Tracer", "", 20, 10, "" },
 			{ "9Rnd_45ACP_Mag", "", 4, 2, "" },
 			{ "16Rnd_9x21_Mag", "", 3, 1, "" },
 			{ "11Rnd_45ACP_Mag", "", 4, 2, "" },
 			{ "6Rnd_45ACP_Cylinder", "", 4, 2, "" },
 			{ "30Rnd_65x39_caseless_green", "", 12, 6, "" },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 17, 8, "" },
-			{ "30Rnd_556x45_Stanag30Rnd_556x45_Stanag_Tracer_Red", "", 15, 7, "" },
+            { "30Rnd_556x45_Stanag", "", 10, 5, "" }, 
+            { "30Rnd_556x45_Stanag_Tracer_Red", "", 15, 7, "" },
 			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 15, 7, "" },
 			{ "30Rnd_556x45_Stanag", "", 10, 5, "" },
 			{ "30Rnd_556x45_Stanag_Tracer_Yellow", "", 15, 7, "" },
@@ -447,10 +448,10 @@ class WeaponShops {
 			{ "SMA_30Rnd_68x43_BT_Tracer", "", 17, 8, "" },
 			{ "SMA_30Rnd_68x43_BT_IR", "", 22, 11, "" },
 			{ "SMA_30Rnd_68x43_sub", "", 12, 6, "" },
-			{ "SMA_30Rnd_68x43_sub_Tracer", "", 17, 8 "" },
+			{ "SMA_30Rnd_68x43_sub_Tracer", "", 17, 8, "" },
 			{ "SMA_30Rnd_68x43_sub_IR", "", 22, 11, "" },
 			{ "SMA_150Rnd_762_M80A1", "", 15, 7, "" },
-			{ "SMA_150Rnd_762_M80A1_Tracer" "", 20, 10, "" },
+			{ "SMA_150Rnd_762_M80A1_Tracer", "", 20, 10, "" },
 			{ "SMA_150Rnd_762_M80A1_Mixed", "", 20, 10, "" }
        
 	   };
