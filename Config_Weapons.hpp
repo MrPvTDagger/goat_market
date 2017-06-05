@@ -243,166 +243,7 @@ class WeaponShops {
 			{ "arifle_AKS_F", "", 2000, 1000, "" }	
 		};
         mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-        };
-	    class secondary {
-        name = "Secondary Shop";
-        side = "cop";
-        conditions = "";
-        items[] = {
-			{ "hgun_ACPC2_F", "", 1400, 700, "" },
-			{ "hgun_Pistol_heavy_01_F", "", 2200, 1100, "" },
-			{ "hgun_Pistol_heavy_02_F", "", 2000, 1000, "" },
-			{ "hgun_Rook40_F", "", 1700, 850, "" },
-			{ "hgun_Pistol_01_F", "", 1500, 750, "" }
-		};
-        mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-        };
-	    class smg {
-        name = "Secondary Shop";
-        side = "cop";
-        conditions = "";
-        items[] = {	
-			{ "SMG_05_F", "", 4500, 2250, "" },
-			{ "hgun_PDW2000_F", "", 1500, 750, "" },
-	        { "SMG_01_F", "", 2000, 1000, "" },
-	        { "SMG_02_F", "", 2000, 1000, "" }	
-		};
-        mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-        };
-		class lmg {
-        name = "LMG Shop";
-        side = "cop";
-        conditions = "";
-        items[] = {	
-			{ "LMG_Mk200_F", "", 8500, 4250, "" },
-	        { "arifle_MX_SW_F", "", 9000, 4500, "" },
-	        { "arifle_MX_SW_Black_F", "", 9000, 4500, "" },
-	        { "arifle_SPAR_02_blk_F", "", 10000, 5000, "" },
-	        { "arifle_SPAR_02_khk_F", "", 10000, 5000, "" },
-	        { "arifle_SPAR_02_snd_F", "", 10000, 5000, "" },
-	        { "MMG_01_hex_F", "", 9500, 4750, "" },
-	        { "MMG_01_tan_F", "", 9500, 4750, "" },
-	        { "MMG_02_camo_F", "", 12000, 6000, "" },
-	        { "MMG_02_black_F", "", 12000, 6000, "" },
-	        { "MMG_02_sand_F", "", 12000, 6000, "" }	
-		};
-	mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-		};
-		class snpiers{
-        name = "Snipers Shop";
-        side = "cop";
-        conditions = "";
-        items[] = {	
-			{ "srifle_EBR_F", "", 7500, 3750, "" },
-			{ "srifle_GM6_F", "", 15000, 7500, "" },
-	        { "srifle_LRR_F", "", 10500, 5250, "" },
-	        { "srifle_DMR_02_F", "", 9000, 4500, "" },
-	        { "srifle_DMR_02_camo_F", "", 9000, 4500, "" },
-	        { "srifle_DMR_02_sniper_F", "", 9000, 4500, "" },
-	        { "srifle_DMR_03_F", "", 7000, 3500, "" },
-	        { "srifle_DMR_03_khaki_F", "", 7000, 3500, "" },
-         	{ "srifle_DMR_03_tan_F", "", 7000, 3500, "" },
-	        { "srifle_DMR_03_multicam_F", "", 7000, 3500, "" },
-	        { "srifle_DMR_03_woodland_F", "", 7000, 3500, "" },
-	        { "srifle_DMR_04_F", "", 6000, 3000, "" },
-         	{ "srifle_DMR_04_Tan_F", "", 6000, 3000, "" },
-        	{ "srifle_DMR_05_blk_F", "", 7000, 3500, "" },
-         	{ "srifle_DMR_05_hex_F", "", 7000, 3500, "" },
-        	{ "srifle_DMR_05_tan_f", "", 7000, 3500, "" },
-	        { "srifle_DMR_06_camo_F", "", 6500, 3250, "" },
-	        { "srifle_DMR_06_olive_F", "", 6500, 3250, "" },
-	        { "arifle_MXM_F", "", 7000, 3500, "" },
-	        { "arifle_MXM_Black_F", "", 7000, 3500, "" },
-	        { "arifle_SPAR_03_blk_F", "", 9500, 4750, "" },
-	        { "arifle_SPAR_03_khk_F", "", 9500, 4750, "" },
-	        { "arifle_SPAR_03_snd_F", "", 9500, 4750, "" }
-	
-		};
-        mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-        };
-		class launchers {
-        name = "Launchers Shop";
-        side = "cop";
-        conditions = "";
-        items[] = {	
-			{ "tf47_m3maaws", "", 1000, 1000, "" },
-			{ "tf47_at4_heat", "", 3500, 1750, "" },
-			{ "tf47_at4_hedp", "", 3500, 1750, "" },
-			{ "tf47_at4_hp", "", 3500, 1750, "" },
-			{ "launch_RPG7_F", "", 1000, 500, "" }, // RPG-7
-			{ "launch_RPG32_F", "", 3500, 1750, "" }, // RPG - 42 ALAMUT
-			{ "launch_B_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (SAND)
-			{ "launch_I_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (DIGITAL)
-			{ "launch_O_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (HEX)
-			{ "launch_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL
-	        { "launch_B_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [SAND]
-	        { "launch_I_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [DIGITAL]
-	        { "launch_O_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [HEX]
-	        { "launch_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT
-			{ "tf47_smaw", "", 5000, 2500, "" },
-			{ "tf47_smaw_green", 5000, 2500, "" }
-		
-		};
-        mags[] = {
-            
-        };
-        accs[] = {
-            
-        };
-        };
-        rockets[] = {
-			{ "tf47_m3maaws_heat", "", 1000, 1000, "" },
-			{ "tf47_m3maaws_hedp", "", 1000, 1000, "" },
-			{ "tf47_m3maaws_he", "", 1000, 1000, "" },
-			{ "tf47_smaw_hedp", "", 800, 400, "" },			
-			{ "RPG7_F", "", 500, 250, "" },
-			{ "RPG32_F", "", 500, 250, "" },
-            { "RPG32_HE_F", "", 500, 250, "" },
-			{ "Titan_AA", "", 5000, 2500, "" },
-			{ "Titan_AT", "", 5000, 2500, "" },
-			{ "Titan_AP", "", 5000, 2500, "" }
-		
-		};
-		ammo[]= {
-			{ "10Rnd_762x54_Mag", "", 15, 7, "" },
-			{ "20Rnd_762x51_Mag", "", 15, 7, "" },
-			{ "5Rnd_127x108_Mag", "", 18, 9, "" },
-			{ "5Rnd_127X108_APDS_Mag", "", 28, 14, "" },
-			{ "7Rnd_408_Mag", "", 18, 9, "" },
-			{ "200Rnd_65x39_cased_Box", "", 12, 6, "" },
-			{ "200Rnd_65x39_cased_Box_Tracer", "", 17, 8, "" },
-			{ "150Rnd_762x54_Box", "", 15, 8, "" },
-			{ "150Rnd_762x54_Box_Tracer", "", 20, 10, "" },
-			{ "9Rnd_45ACP_Mag", "", 4, 2, "" },
-			{ "16Rnd_9x21_Mag", "", 3, 1, "" },
-			{ "11Rnd_45ACP_Mag", "", 4, 2, "" },
-			{ "6Rnd_45ACP_Cylinder", "", 4, 2, "" },
-			{ "30Rnd_65x39_caseless_green", "", 12, 6, "" },
+            { "30Rnd_65x39_caseless_green", "", 12, 6, "" },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 17, 8, "" },
             { "30Rnd_556x45_Stanag", "", 10, 5, "" }, 
             { "30Rnd_556x45_Stanag_Tracer_Red", "", 15, 7, "" },
@@ -413,27 +254,6 @@ class WeaponShops {
 			{ "30Rnd_556x45_Stanag_green", "", 10, 5, "" },
 			{ "30Rnd_65x39_caseless_mag", "", 12, 6, "" },
 			{ "30Rnd_65x39_caseless_mag_Tracer", "", 17, 8, "" },
-			{ "100Rnd_65x39_caseless_mag", "", 12, 6, "" },
-			{ "100Rnd_65x39_caseless_mag_Tracer", "", 17, 8, "" },
-			{ "30Rnd_9x21_Mag", "", 3, 1, "" },
-			{ "30Rnd_9x21_Red_Mag", "", 3, 1, "" },
-			{ "30Rnd_9x21_Yellow_Mag", "", 3, 1, "" },
-			{ "30Rnd_9x21_Green_Mag", "", 3, 1, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01", "", 4, 2, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 9, 4, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Red", "", 9, 4, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow", "", 9, 4, "" },
-			{ "10Rnd_338_Mag", "", 12, 6, "" },
-			{ "10Rnd_127x54_Mag", "", 18, 9, "" },
-			{ "10Rnd_93x64_DMR_05_Mag", "", 15, 7, "" },
-			{ "150Rnd_93x64_Mag", "", 15, 7, "" },
-			{ "130Rnd_338_Mag", "", 12, 6, "" },
-			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" },
-			{ "200Rnd_556x45_Box_F", "", 10, 5, "" },
-			{ "200Rnd_556x45_Box_Red_F", "", 10, 5, "" },
-			{ "200Rnd_556x45_Box_Tracer_F", "", 15, 8, "" },
-			{ "200Rnd_556x45_Box_Tracer_Red_F", "", 15, 8, "" },
-			{ "10Rnd_9x21_Mag", "", 3, 1, "" },
 			{ "30Rnd_762x39_Mag_F", "", 15, 7, "" },
 			{ "30Rnd_762x39_Mag_Green_F", "", 15, 7, "" },
 			{ "30Rnd_762x39_Mag_Tracer_F", "", 20, 10, "" },
@@ -458,9 +278,6 @@ class WeaponShops {
 			{ "10Rnd_50BW_Mag_F", "", 45, 22, "" },
 			{ "30Rnd_580x42_Mag_F", "", 10, 5, "" },
 			{ "30Rnd_580x42_Mag_Tracer_F", "", 15, 7, "" },
-			{ "150Rnd_556x45_Drum_Mag_F", "", 10, 5, "" },
-			{ "150Rnd_556x45_Drum_Mag_Tracer_F", "", 15, 7, "" },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 3, 1, "" },
 			{ "SMA_30Rnd_762x35_BLK_EPR", "", 15, 7, "" },
 			{ "SMA_30Rnd_762x35_SS", "", 15, 7, "" },
 			{ "SMA_30Rnd_762x39_SKS_FMJ", "", 15, 7, "" },
@@ -493,16 +310,10 @@ class WeaponShops {
 			{ "SMA_30Rnd_68x43_BT_IR", "", 22, 11, "" },
 			{ "SMA_30Rnd_68x43_sub", "", 12, 6, "" },
 			{ "SMA_30Rnd_68x43_sub_Tracer", "", 17, 8, "" },
-			{ "SMA_30Rnd_68x43_sub_IR", "", 22, 11, "" },
-			{ "SMA_150Rnd_762_M80A1", "", 15, 7, "" },
-			{ "SMA_150Rnd_762_M80A1_Tracer", "", 20, 10, "" },
-			{ "SMA_150Rnd_762_M80A1_Mixed", "", 20, 10, "" }
-       
-	   };
-        optics[] = {
+			{ "SMA_30Rnd_68x43_sub_IR", "", 22, 11, "" }
+        };
+        accs[] = {
             { "optic_Arco", "", 1850, 925, "" },
-			{ "tf47_optic_m3maaws", "", 600, 300, "" },
-			{ "tf47_optic_smaw", "", 500, 250, "" },
 			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
@@ -541,22 +352,50 @@ class WeaponShops {
 			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
 			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
 			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
-			{ "optic_LRPS", "", 3000, 1500, "" }, // SNIPER SCOPES BELOW.
-			{ "optic_AMS", "", 3500, 1250, "" },
-			{ "optic_AMS_khk", "", 3500, 1250, "" },
-			{ "optic_AMS_snd", "", 3500, 1250, "" },
-			{ "optic_KHS_blk", "", 4000, 2000, "" },
-			{ "optic_KHS_hex", "", 4000, 2000, "" },
-			{ "optic_KHS_tan", "", 4000, 2000, "" },
-			{ "optic_Nightstalker", "", 10500, 5250, "" },
-			{ "optic_tws", "", 9000, 4500, "" },
-			{ "optic_tws_mg", "", 9000, 4500, "" },
-			{ "optic_DMS", "", 3050, 1525, "" },
-			{ "optic_NVS", "", 9500, 4750, "" },
-			{ "optic_SOS", "", 1250, 625, "" }
-		
-		};
-		suppressors[] = {
+			{ "SMA_Gripod_01", "", 100, 50, "" },
+			{ "bipod_01_F_snd", "", 100, 50, "" },
+			{ "bipod_01_F_blk", "", 100, 50, "" },
+			{ "bipod_01_F_mtp", "", 100, 50, "" },
+			{ "bipod_02_F_blk", "", 100, 50, "" },
+			{ "bipod_02_F_tan", "", 100, 50, "" },
+			{ "bipod_02_F_hex", "", 100, 50, "" },
+			{ "bipod_03_F_blk", "", 100, 50, "" },
+			{ "bipod_03_F_oli", "", 100, 50, "" },
+			{ "bipod_01_F_khk", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_417TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_417BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_MK18", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_MK18", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_M4", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_M4", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_SCAR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_SCAR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_ACR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_ACR", "", 100, 50, "" },
+			{ "SMA_SFPEQ_M4TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_M4TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_MK18TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_MK18TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HKTOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HKTOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HK417TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HK417TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_SCARTOP_TAN", "", 100, 50, "" },
+	        { "SMA_SFPEQ_SCARTOP_BLK", "", 100, 50, "" },
+		    { "SMA_SFPEQ_ACRTOP_BLK", "", 100, 50, "" },
+	        { "SMA_SFPEQ_ACRTOP_BLK_LIGHT", "", 100, 50, "" },
+			{ "SMA_SFPEQ_ACRTOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_ACRTOP_TAN_LIGHT", "", 100, 50, "" },
+			{ "SMA_SFPEQ_AUGCQC_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_AUGCQC_BLK", "", 100, 50, "" },
+			{ "acc_pointer_IR", "", 55, 22, "" },
+			{ "acc_flashlight", "", 40, 20, "" },
+			{ "SMA_SFFL_TAN", "", 40, 20, "" },
+			{ "SMA_SFFL_BLK", "", 40, 20, "" },
 			{ "muzzle_snds_acp", "", 300, 150, "" },
 			{ "muzzle_snds_L", "", 300, 150, "" },
 			{ "muzzle_snds_M", "", 500, 250, "" },
@@ -620,9 +459,431 @@ class WeaponShops {
 			{ "SMA_AAC_762_sdn6_d", "", 500, 250, "" },
 			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
 			{ "SMA_FLASHHIDER2", "", 400, 200, "" }
-			
-			};
-			attachments[] = {
+        };
+        };
+	    class secondary {
+        name = "Secondary Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {
+			{ "hgun_ACPC2_F", "", 1400, 700, "" },
+			{ "hgun_Pistol_heavy_01_F", "", 2200, 1100, "" },
+			{ "hgun_Pistol_heavy_02_F", "", 2000, 1000, "" },
+			{ "hgun_Rook40_F", "", 1700, 850, "" },
+			{ "hgun_Pistol_01_F", "", 1500, 750, "" }
+		};
+        mags[] = {
+            { "9Rnd_45ACP_Mag", "", 4, 2, "" },
+			{ "16Rnd_9x21_Mag", "", 3, 1, "" },
+			{ "11Rnd_45ACP_Mag", "", 4, 2, "" },
+			{ "6Rnd_45ACP_Cylinder", "", 4, 2, "" },
+			{ "10Rnd_9x21_Mag", "", 3, 1, "" },
+        };
+        accs[] = {
+            { "muzzle_snds_acp", "", 300, 150, "" },
+			{ "muzzle_snds_L", "", 300, 150, "" },
+			{ "muzzle_snds_M", "", 500, 250, "" },
+			{ "muzzle_snds_B", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG", "", 500, 250, "" },
+			{ "muzzle_snds_H_SW", "", 500, 250, "" },
+			{ "muzzle_snds_338_black", "", 500, 250, "" },
+			{ "muzzle_snds_338_green", "", 500, 250, "" },
+			{ "muzzle_snds_338_sand", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg_tan", "", 500, 250, "" },
+			{ "muzzle_snds_H_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_wdm_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_khk_F", "", 500, 250, "" },
+			{ "SMA_Silencer_556", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Bronze", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Silver", "", 500, 250, "" },
+			{ "sma_gemtech_one_blk", "", 500, 250, "" },
+			{ "sma_gemtech_one_des", "", 500, 250, "" },
+			{ "sma_gemtech_one_wdl", "", 500, 250, "" },
+			{ "SMA_supplb_556", "", 500, 250, "" },
+			{ "SMA_suppltan_556", "", 500, 250, "" },
+			{ "SMA_supp2b_556", "", 500, 250, "" },
+			{ "SMA_supp2btan_556", "", 500, 250, "" },
+			{ "SMA_supp_762", "", 500, 250, "" },
+			{ "SMA_supptan_762", "", 500, 250, "" },
+			{ "SMA_supp1BB_556", "", 500, 250, "" },
+			{ "SMA_supp1BOD_556", "", 500, 250, "" },
+			{ "SMA_supp1BT_556", "", 500, 250, "" },
+			{ "SMA_supp1Bwht_556", "", 500, 250, "" },
+			{ "SMA_supp1TB_556", "", 500, 250, "" },
+			{ "SMA_supp1TOD_556", "", 500, 250, "" },
+			{ "SMA_supp1TT_556", "", 500, 250, "" },
+			{ "SMA_supp1TW_556", "", 500, 250, "" },
+			{ "SMA_supp2BOD_556", "", 500, 250, "" },
+			{ "SMA_supp2BT_556", "", 500, 250, "" },
+			{ "SMA_supp2BW_556", "", 500, 250, "" },
+			{ "SMA_supp2T_556", "", 500, 250, "" },
+			{ "SMA_supp2TB_556", "", 500, 250, "" },
+			{ "SMA_supp2TOD_556", "", 500, 250, "" },
+			{ "SMA_supp2TWH_556", "", 500, 250, "" },
+			{ "SMA_supp2smaB_556", "", 500, 250, "" },
+			{ "SMA_supp2smaT_556", "", 500, 250, "" },
+			{ "SMA_rotex_blk", "", 500, 250, "" },
+			{ "SMA_rotex_tan", "", 500, 250, "" },
+			{ "SMA_rotex_gry", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_w", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_d", "", 500, 250, "" },
+			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
+			{ "SMA_FLASHHIDER2", "", 400, 200, "" }
+        };
+        };
+	    class smg {
+        name = "Secondary Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
+			{ "SMG_05_F", "", 4500, 2250, "" },
+			{ "hgun_PDW2000_F", "", 1500, 750, "" },
+	        { "SMG_01_F", "", 2000, 1000, "" },
+	        { "SMG_02_F", "", 2000, 1000, "" }	
+		};
+        mags[] = {
+            { "30Rnd_9x21_Mag_SMG_02", "", 3, 1, "" },
+			{ "30Rnd_9x21_Mag", "", 3, 1, "" },
+			{ "30Rnd_9x21_Red_Mag", "", 3, 1, "" },
+			{ "30Rnd_9x21_Yellow_Mag", "", 3, 1, "" },
+			{ "30Rnd_9x21_Green_Mag", "", 3, 1, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 4, 2, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 9, 4, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Red", "", 9, 4, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow", "", 9, 4, "" },
+        };
+        accs[] = {
+            	{ "optic_Holosight", "", 600, 300, "" },
+			    { "SMA_MICRO_T2", "", 800, 400, "" },			
+				{ "muzzle_snds_acp", "", 300, 150, "" },
+			{ "muzzle_snds_L", "", 300, 150, "" },
+			{ "muzzle_snds_M", "", 500, 250, "" },
+			{ "muzzle_snds_B", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG", "", 500, 250, "" },
+			{ "muzzle_snds_H_SW", "", 500, 250, "" },
+			{ "muzzle_snds_338_black", "", 500, 250, "" },
+			{ "muzzle_snds_338_green", "", 500, 250, "" },
+			{ "muzzle_snds_338_sand", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg_tan", "", 500, 250, "" },
+			{ "muzzle_snds_H_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_wdm_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_khk_F", "", 500, 250, "" },
+			{ "SMA_Silencer_556", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Bronze", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Silver", "", 500, 250, "" },
+			{ "sma_gemtech_one_blk", "", 500, 250, "" },
+			{ "sma_gemtech_one_des", "", 500, 250, "" },
+			{ "sma_gemtech_one_wdl", "", 500, 250, "" },
+			{ "SMA_supplb_556", "", 500, 250, "" },
+			{ "SMA_suppltan_556", "", 500, 250, "" },
+			{ "SMA_supp2b_556", "", 500, 250, "" },
+			{ "SMA_supp2btan_556", "", 500, 250, "" },
+			{ "SMA_supp_762", "", 500, 250, "" },
+			{ "SMA_supptan_762", "", 500, 250, "" },
+			{ "SMA_supp1BB_556", "", 500, 250, "" },
+			{ "SMA_supp1BOD_556", "", 500, 250, "" },
+			{ "SMA_supp1BT_556", "", 500, 250, "" },
+			{ "SMA_supp1Bwht_556", "", 500, 250, "" },
+			{ "SMA_supp1TB_556", "", 500, 250, "" },
+			{ "SMA_supp1TOD_556", "", 500, 250, "" },
+			{ "SMA_supp1TT_556", "", 500, 250, "" },
+			{ "SMA_supp1TW_556", "", 500, 250, "" },
+			{ "SMA_supp2BOD_556", "", 500, 250, "" },
+			{ "SMA_supp2BT_556", "", 500, 250, "" },
+			{ "SMA_supp2BW_556", "", 500, 250, "" },
+			{ "SMA_supp2T_556", "", 500, 250, "" },
+			{ "SMA_supp2TB_556", "", 500, 250, "" },
+			{ "SMA_supp2TOD_556", "", 500, 250, "" },
+			{ "SMA_supp2TWH_556", "", 500, 250, "" },
+			{ "SMA_supp2smaB_556", "", 500, 250, "" },
+			{ "SMA_supp2smaT_556", "", 500, 250, "" },
+			{ "SMA_rotex_blk", "", 500, 250, "" },
+			{ "SMA_rotex_tan", "", 500, 250, "" },
+			{ "SMA_rotex_gry", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_w", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_d", "", 500, 250, "" },
+			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
+			{ "SMA_FLASHHIDER2", "", 400, 200, "" }
+        };
+        };
+		class lmg {
+        name = "LMG Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
+			{ "LMG_Mk200_F", "", 8500, 4250, "" },
+	        { "arifle_MX_SW_F", "", 9000, 4500, "" },
+	        { "arifle_MX_SW_Black_F", "", 9000, 4500, "" },
+	        { "arifle_SPAR_02_blk_F", "", 10000, 5000, "" },
+	        { "arifle_SPAR_02_khk_F", "", 10000, 5000, "" },
+	        { "arifle_SPAR_02_snd_F", "", 10000, 5000, "" },
+	        { "MMG_01_hex_F", "", 9500, 4750, "" },
+	        { "MMG_01_tan_F", "", 9500, 4750, "" },
+	        { "MMG_02_camo_F", "", 12000, 6000, "" },
+	        { "MMG_02_black_F", "", 12000, 6000, "" },
+	        { "MMG_02_sand_F", "", 12000, 6000, "" }	
+		};
+	mags[] = {
+            { "200Rnd_65x39_cased_Box", "", 12, 6, "" },
+			{ "200Rnd_65x39_cased_Box_Tracer", "", 17, 8, "" },
+			{ "150Rnd_762x54_Box", "", 15, 8, "" },
+			{ "150Rnd_762x54_Box_Tracer", "", 20, 10, "" },
+			{ "150Rnd_556x45_Drum_Mag_F", "", 10, 5, "" },
+			{ "100Rnd_65x39_caseless_mag", "", 12, 6, "" },
+			{ "100Rnd_65x39_caseless_mag_Tracer", "", 17, 8, "" },
+			{ "150Rnd_556x45_Drum_Mag_Tracer_F", "", 15, 7, "" },
+			{ "SMA_150Rnd_762_M80A1", "", 15, 7, "" },
+			{ "SMA_150Rnd_762_M80A1_Tracer", "", 20, 10, "" },
+			{ "SMA_150Rnd_762_M80A1_Mixed", "", 20, 10, "" }
+			{ "130Rnd_338_Mag", "", 12, 6, "" },
+			{ "150Rnd_93x64_Mag", "", 15, 7, "" },
+			{ "200Rnd_556x45_Box_F", "", 10, 5, "" },
+			{ "200Rnd_556x45_Box_Red_F", "", 10, 5, "" },
+			{ "200Rnd_556x45_Box_Tracer_F", "", 15, 8, "" },
+			{ "200Rnd_556x45_Box_Tracer_Red_F", "", 15, 8, "" }
+        };
+        accs[] = {
+            { "optic_Arco", "", 1850, 925, "" },
+			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_TAN_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_GREEN_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_RDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_TAN_RDS", "", 2300, 1150, "" },			
+			{ "SMA_ELCAN_SPECTER_GREEN_RDS", "", 2300, 1150, "" },
+			{ "SMA_MICRO_T2", "", 800, 400, "" },
+			{ "SMA_MICRO_T2_LM", "", 800, 400, "" },
+			{ "SMA_MICRO_T2_3XDOWN", "", 800, 400, "" },
+			{ "SMA_eotech", "", 1000, 500, "" },
+			{ "SMA_eotech_T", "", 1000, 500, "" },
+			{ "SMA_eotech_G", "", 1000, 500, "" },
+			{ "SMA_eotechG33_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotechG33_tan_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotechG33_grn_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotech552", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf_des", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf_wdl", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN_wdl", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN_des", "", 1000, 500, "" },
+			{ "sma_spitfire_01_sc_black", "", 1600, 800, "" },
+			{ "sma_spitfire_01_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_sc_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_rds_black", "", 2000, 1000, "" },
+	        { "sma_spitfire_03_rds_low_black", "", 2000, 1000, "" },
+	        { "sma_spitfire_03_rds_low_ard_black", "", 2000, 1000, "" },
+			{ "optic_MRCO", "", 1850, 925, "" },
+			{ "optic_Holosight", "", 600, 300, "" },
+			{ "optic_Hamr", "", 2250, 1125, "" },
+			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
+			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
+			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
+			{ "SMA_Gripod_01", "", 100, 50, "" },
+			{ "bipod_01_F_snd", "", 100, 50, "" },
+			{ "bipod_01_F_blk", "", 100, 50, "" },
+			{ "bipod_01_F_mtp", "", 100, 50, "" },
+			{ "bipod_02_F_blk", "", 100, 50, "" },
+			{ "bipod_02_F_tan", "", 100, 50, "" },
+			{ "bipod_02_F_hex", "", 100, 50, "" },
+			{ "bipod_03_F_blk", "", 100, 50, "" },
+			{ "bipod_03_F_oli", "", 100, 50, "" },
+			{ "bipod_01_F_khk", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_417TAN", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_417BLK", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_MK18", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_MK18", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_M4", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_M4", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_SCAR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_SCAR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_TAN_ACR", "", 100, 50, "" },
+			{ "SMA_ANPEQ15_TOP_BLK_ACR", "", 100, 50, "" },
+			{ "SMA_SFPEQ_M4TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_M4TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_MK18TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_MK18TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HKTOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HKTOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HK417TOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_HK417TOP_BLK", "", 100, 50, "" },
+			{ "SMA_SFPEQ_SCARTOP_TAN", "", 100, 50, "" },
+	        { "SMA_SFPEQ_SCARTOP_BLK", "", 100, 50, "" },
+		    { "SMA_SFPEQ_ACRTOP_BLK", "", 100, 50, "" },
+	        { "SMA_SFPEQ_ACRTOP_BLK_LIGHT", "", 100, 50, "" },
+			{ "SMA_SFPEQ_ACRTOP_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_ACRTOP_TAN_LIGHT", "", 100, 50, "" },
+			{ "SMA_SFPEQ_AUGCQC_TAN", "", 100, 50, "" },
+			{ "SMA_SFPEQ_AUGCQC_BLK", "", 100, 50, "" },
+			{ "acc_pointer_IR", "", 55, 22, "" },
+			{ "acc_flashlight", "", 40, 20, "" },
+			{ "SMA_SFFL_TAN", "", 40, 20, "" },
+			{ "SMA_SFFL_BLK", "", 40, 20, "" },
+			{ "muzzle_snds_acp", "", 300, 150, "" },
+			{ "muzzle_snds_L", "", 300, 150, "" },
+			{ "muzzle_snds_M", "", 500, 250, "" },
+			{ "muzzle_snds_B", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG", "", 500, 250, "" },
+			{ "muzzle_snds_H_SW", "", 500, 250, "" },
+			{ "muzzle_snds_338_black", "", 500, 250, "" },
+			{ "muzzle_snds_338_green", "", 500, 250, "" },
+			{ "muzzle_snds_338_sand", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg", "", 500, 250, "" },
+			{ "muzzle_snds_93mmg_tan", "", 500, 250, "" },
+			{ "muzzle_snds_H_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_m_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_wdm_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_58_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_khk_F", "", 500, 250, "" },
+			{ "muzzle_snds_B_snd_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_hex_F", "", 500, 250, "" },
+			{ "muzzle_snds_65_TI_ghex_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_blk_F", "", 500, 250, "" },
+			{ "muzzle_snds_H_MG_khk_F", "", 500, 250, "" },
+			{ "SMA_Silencer_556", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Bronze", "", 500, 250, "" },
+			{ "SMA_Silencer_556_Silver", "", 500, 250, "" },
+			{ "sma_gemtech_one_blk", "", 500, 250, "" },
+			{ "sma_gemtech_one_des", "", 500, 250, "" },
+			{ "sma_gemtech_one_wdl", "", 500, 250, "" },
+			{ "SMA_supplb_556", "", 500, 250, "" },
+			{ "SMA_suppltan_556", "", 500, 250, "" },
+			{ "SMA_supp2b_556", "", 500, 250, "" },
+			{ "SMA_supp2btan_556", "", 500, 250, "" },
+			{ "SMA_supp_762", "", 500, 250, "" },
+			{ "SMA_supptan_762", "", 500, 250, "" },
+			{ "SMA_supp1BB_556", "", 500, 250, "" },
+			{ "SMA_supp1BOD_556", "", 500, 250, "" },
+			{ "SMA_supp1BT_556", "", 500, 250, "" },
+			{ "SMA_supp1Bwht_556", "", 500, 250, "" },
+			{ "SMA_supp1TB_556", "", 500, 250, "" },
+			{ "SMA_supp1TOD_556", "", 500, 250, "" },
+			{ "SMA_supp1TT_556", "", 500, 250, "" },
+			{ "SMA_supp1TW_556", "", 500, 250, "" },
+			{ "SMA_supp2BOD_556", "", 500, 250, "" },
+			{ "SMA_supp2BT_556", "", 500, 250, "" },
+			{ "SMA_supp2BW_556", "", 500, 250, "" },
+			{ "SMA_supp2T_556", "", 500, 250, "" },
+			{ "SMA_supp2TB_556", "", 500, 250, "" },
+			{ "SMA_supp2TOD_556", "", 500, 250, "" },
+			{ "SMA_supp2TWH_556", "", 500, 250, "" },
+			{ "SMA_supp2smaB_556", "", 500, 250, "" },
+			{ "SMA_supp2smaT_556", "", 500, 250, "" },
+			{ "SMA_rotex_blk", "", 500, 250, "" },
+			{ "SMA_rotex_tan", "", 500, 250, "" },
+			{ "SMA_rotex_gry", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_w", "", 500, 250, "" },
+			{ "SMA_AAC_762_sdn6_d", "", 500, 250, "" },
+			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
+			{ "SMA_FLASHHIDER2", "", 400, 200, "" }
+        };
+		};
+		class snipers{
+        name = "Snipers Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
+			{ "srifle_EBR_F", "", 7500, 3750, "" },
+			{ "srifle_GM6_F", "", 15000, 7500, "" },
+	        { "srifle_LRR_F", "", 10500, 5250, "" },
+	        { "srifle_DMR_02_F", "", 9000, 4500, "" },
+	        { "srifle_DMR_02_camo_F", "", 9000, 4500, "" },
+	        { "srifle_DMR_02_sniper_F", "", 9000, 4500, "" },
+	        { "srifle_DMR_03_F", "", 7000, 3500, "" },
+	        { "srifle_DMR_03_khaki_F", "", 7000, 3500, "" },
+         	{ "srifle_DMR_03_tan_F", "", 7000, 3500, "" },
+	        { "srifle_DMR_03_multicam_F", "", 7000, 3500, "" },
+	        { "srifle_DMR_03_woodland_F", "", 7000, 3500, "" },
+	        { "srifle_DMR_04_F", "", 6000, 3000, "" },
+         	{ "srifle_DMR_04_Tan_F", "", 6000, 3000, "" },
+        	{ "srifle_DMR_05_blk_F", "", 7000, 3500, "" },
+         	{ "srifle_DMR_05_hex_F", "", 7000, 3500, "" },
+        	{ "srifle_DMR_05_tan_f", "", 7000, 3500, "" },
+	        { "srifle_DMR_06_camo_F", "", 6500, 3250, "" },
+	        { "srifle_DMR_06_olive_F", "", 6500, 3250, "" },
+	        { "arifle_MXM_F", "", 7000, 3500, "" },
+	        { "arifle_MXM_Black_F", "", 7000, 3500, "" },
+	        { "arifle_SPAR_03_blk_F", "", 9500, 4750, "" },
+	        { "arifle_SPAR_03_khk_F", "", 9500, 4750, "" },
+	        { "arifle_SPAR_03_snd_F", "", 9500, 4750, "" }
+	
+		};
+        mags[] = {
+            { "10Rnd_762x54_Mag", "", 15, 7, "" },
+			{ "20Rnd_762x51_Mag", "", 15, 7, "" },
+			{ "5Rnd_127x108_Mag", "", 18, 9, "" },
+			{ "5Rnd_127X108_APDS_Mag", "", 28, 14, "" },
+			{ "7Rnd_408_Mag", "", 18, 9, "" },
+						{ "10Rnd_338_Mag", "", 12, 6, "" },
+			{ "10Rnd_127x54_Mag", "", 18, 9, "" },
+			{ "10Rnd_93x64_DMR_05_Mag", "", 15, 7, "" },
+			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" }
+        };
+        accs[] = {
+            { "optic_LRPS", "", 3000, 1500, "" },
+			{ "optic_AMS", "", 3500, 1250, "" },
+			{ "optic_AMS_khk", "", 3500, 1250, "" },
+			{ "optic_AMS_snd", "", 3500, 1250, "" },
+			{ "optic_KHS_blk", "", 4000, 2000, "" },
+			{ "optic_KHS_hex", "", 4000, 2000, "" },
+			{ "optic_KHS_tan", "", 4000, 2000, "" },
+			{ "optic_Nightstalker", "", 10500, 5250, "" },
+			{ "optic_tws", "", 9000, 4500, "" },
+			{ "optic_tws_mg", "", 9000, 4500, "" },
+			{ "optic_DMS", "", 3050, 1525, "" },
+			{ "optic_NVS", "", 9500, 4750, "" },
+			{ "optic_SOS", "", 1250, 625, "" },
+			{ "SMA_Gripod_01", "", 100, 50, "" },
+			{ "bipod_01_F_snd", "", 100, 50, "" },
+			{ "bipod_01_F_blk", "", 100, 50, "" },
+			{ "bipod_01_F_mtp", "", 100, 50, "" },
+			{ "bipod_02_F_blk", "", 100, 50, "" },
+			{ "bipod_02_F_tan", "", 100, 50, "" },
+			{ "bipod_02_F_hex", "", 100, 50, "" },
+			{ "bipod_03_F_blk", "", 100, 50, "" },
+			{ "bipod_03_F_oli", "", 100, 50, "" },
+			{ "bipod_01_F_khk", "", 100, 50, "" },
 			{ "SMA_ANPEQ15_TAN", "", 100, 50, "" },
 			{ "SMA_ANPEQ15_TOP_TAN", "", 100, 50, "" },
 			{ "SMA_ANPEQ15_TOP_417TAN", "", 100, 50, "" },
@@ -657,20 +918,93 @@ class WeaponShops {
 			{ "acc_flashlight", "", 40, 20, "" },
 			{ "SMA_SFFL_TAN", "", 40, 20, "" },
 			{ "SMA_SFFL_BLK", "", 40, 20, "" }
-			
-			};
-			bipods[] = {
-			{ "SMA_Gripod_01", "", 100, 50, "" },
-			{ "bipod_01_F_snd", "", 100, 50, "" },
-			{ "bipod_01_F_blk", "", 100, 50, "" },
-			{ "bipod_01_F_mtp", "", 100, 50, "" },
-			{ "bipod_02_F_blk", "", 100, 50, "" },
-			{ "bipod_02_F_tan", "", 100, 50, "" },
-			{ "bipod_02_F_hex", "", 100, 50, "" },
-			{ "bipod_03_F_blk", "", 100, 50, "" },
-			{ "bipod_03_F_oli", "", 100, 50, "" },
-			{ "bipod_01_F_khk", "", 100, 50, "" }
-			
-			};
+        };
+        };
+		class launchers {
+        name = "Launchers Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
+			{ "tf47_m3maaws", "", 1000, 1000, "" },
+			{ "tf47_at4_heat", "", 3500, 1750, "" },
+			{ "tf47_at4_hedp", "", 3500, 1750, "" },
+			{ "tf47_at4_hp", "", 3500, 1750, "" },
+			{ "launch_RPG7_F", "", 1000, 500, "" }, // RPG-7
+			{ "launch_RPG32_F", "", 3500, 1750, "" }, // RPG - 42 ALAMUT
+			{ "launch_B_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (SAND)
+			{ "launch_I_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (DIGITAL)
+			{ "launch_O_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (HEX)
+			{ "launch_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL
+	        { "launch_B_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [SAND]
+	        { "launch_I_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [DIGITAL]
+	        { "launch_O_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [HEX]
+	        { "launch_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT
+			{ "tf47_smaw", "", 5000, 2500, "" },
+			{ "tf47_smaw_green", 5000, 2500, "" }
+		
+		};
+        mags[] = {
+            { "tf47_m3maaws_heat", "", 1000, 1000, "" },
+			{ "tf47_m3maaws_hedp", "", 1000, 1000, "" },
+			{ "tf47_m3maaws_he", "", 1000, 1000, "" },
+			{ "tf47_smaw_hedp", "", 800, 400, "" },			
+			{ "RPG7_F", "", 500, 250, "" },
+			{ "RPG32_F", "", 500, 250, "" },
+            { "RPG32_HE_F", "", 500, 250, "" },
+			{ "Titan_AA", "", 5000, 2500, "" },
+			{ "Titan_AT", "", 5000, 2500, "" },
+			{ "Titan_AP", "", 5000, 2500, "" }
+        };
+        accs[] = {
+            { "tf47_optic_m3maaws", "", 600, 300, "" },
+			{ "tf47_optic_smaw", "", 500, 250, "" }
+        };
+        };
+		ammo[]= {
+       
+	   };
+        optics[] = {
+            { "optic_Arco", "", 1850, 925, "" },
+			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
+			{ "SMA_ELCAN_SPECTER_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_TAN_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_GREEN_ARDRDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_RDS", "", 2300, 1150, "" },
+			{ "SMA_ELCAN_SPECTER_TAN_RDS", "", 2300, 1150, "" },			
+			{ "SMA_ELCAN_SPECTER_GREEN_RDS", "", 2300, 1150, "" },
+			{ "SMA_MICRO_T2", "", 800, 400, "" },
+			{ "SMA_MICRO_T2_LM", "", 800, 400, "" },
+			{ "SMA_MICRO_T2_3XDOWN", "", 800, 400, "" },
+			{ "SMA_eotech", "", 1000, 500, "" },
+			{ "SMA_eotech_T", "", 1000, 500, "" },
+			{ "SMA_eotech_G", "", 1000, 500, "" },
+			{ "SMA_eotechG33_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotechG33_tan_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotechG33_grn_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotech552", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf_des", "", 1000, 500, "" },
+			{ "SMA_eotech552_kf_wdl", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN_wdl", "", 1000, 500, "" },
+			{ "SMA_eotech552_3XDOWN_des", "", 1000, 500, "" },
+			{ "sma_spitfire_01_sc_black", "", 1600, 800, "" },
+			{ "sma_spitfire_01_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_sc_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_black", "", 1600, 800, "" },
+			{ "sma_spitfire_03_rds_black", "", 2000, 1000, "" },
+	        { "sma_spitfire_03_rds_low_black", "", 2000, 1000, "" },
+	        { "sma_spitfire_03_rds_low_ard_black", "", 2000, 1000, "" },
+			{ "optic_MRCO", "", 1850, 925, "" },
+			{ "optic_Holosight", "", 600, 300, "" },
+			{ "optic_Hamr", "", 2250, 1125, "" },
+			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
+			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
+			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
+		
+		};
+		
     };
 };
