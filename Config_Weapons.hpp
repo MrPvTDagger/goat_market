@@ -1,28 +1,7 @@
-/*
-*    FORMAT:
-*        STRING (Conditions) - Must return boolean :
-*            String can contain any amount of conditions, aslong as the entire
-*            string returns a boolean. This allows you to check any levels, licenses etc,
-*            in any combination. For example:
-*                "call life_coplevel && license_civ_someLicense"
-*            This will also let you call any other function.
-*            
-*
-*    ARRAY FORMAT:
-*        0: STRING (Classname): Item Classname
-*        1: STRING (Nickname): Nickname that will appear purely in the shop dialog
-*        2: SCALAR (Buy price)
-*        3: SCALAR (Sell price): To disable selling, this should be -1
-*        4: STRING (Conditions): Same as above conditions string
-*
-*    Weapon classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Weapons
-*    Item classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Items
-*
-*/
 class WeaponShops {  
-    //Cop Shops
-    class cop_basic {
-        name = "Weapon Shop";
+    //Weapon Shops
+    class basic {
+        name = "Gear Shop";
         side = "cop";
         conditions = "";
         items[] = {
@@ -44,7 +23,11 @@ class WeaponShops {
 			{ "TF_anarc210", "", 2, 1, "" }
         
 		};
-		rifles[] = {
+		class rifle {
+        name = "Rifle Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {
 			{ "SMA_HK416afgQCB", "", 6200, 3100, "" },
 			{ "SMA_HK416afg", "", 6500, 3250, "" },
 			{ "SMA_HK416vfg", "", 6500, 3250, "" },
@@ -259,21 +242,53 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
 			{ "arifle_AKS_F", "", 2000, 1000, "" }	
 		};
-		secondary[] = {
+        mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+        };
+	    class secondary {
+        name = "Secondary Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {
 			{ "hgun_ACPC2_F", "", 1400, 700, "" },
 			{ "hgun_Pistol_heavy_01_F", "", 2200, 1100, "" },
 			{ "hgun_Pistol_heavy_02_F", "", 2000, 1000, "" },
 			{ "hgun_Rook40_F", "", 1700, 850, "" },
 			{ "hgun_Pistol_01_F", "", 1500, 750, "" }
 		};
-		smg[] = {
-			
+        mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+        };
+	    class smg {
+        name = "Secondary Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
 			{ "SMG_05_F", "", 4500, 2250, "" },
 			{ "hgun_PDW2000_F", "", 1500, 750, "" },
 	        { "SMG_01_F", "", 2000, 1000, "" },
 	        { "SMG_02_F", "", 2000, 1000, "" }	
 		};
-		lmg[] = {
+        mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+        };
+		class lmg {
+        name = "LMG Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
 			{ "LMG_Mk200_F", "", 8500, 4250, "" },
 	        { "arifle_MX_SW_F", "", 9000, 4500, "" },
 	        { "arifle_MX_SW_Black_F", "", 9000, 4500, "" },
@@ -286,7 +301,18 @@ class WeaponShops {
 	        { "MMG_02_black_F", "", 12000, 6000, "" },
 	        { "MMG_02_sand_F", "", 12000, 6000, "" }	
 		};
-		dmr[] = {
+	mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+		};
+		class snpiers{
+        name = "Snipers Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
 			{ "srifle_EBR_F", "", 7500, 3750, "" },
 			{ "srifle_GM6_F", "", 15000, 7500, "" },
 	        { "srifle_LRR_F", "", 10500, 5250, "" },
@@ -312,7 +338,18 @@ class WeaponShops {
 	        { "arifle_SPAR_03_snd_F", "", 9500, 4750, "" }
 	
 		};
-		launchers[] = {
+        mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+        };
+		class launchers {
+        name = "Launchers Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {	
 			{ "tf47_m3maaws", "", 1000, 1000, "" },
 			{ "tf47_at4_heat", "", 3500, 1750, "" },
 			{ "tf47_at4_hedp", "", 3500, 1750, "" },
@@ -331,6 +368,13 @@ class WeaponShops {
 			{ "tf47_smaw_green", 5000, 2500, "" }
 		
 		};
+        mags[] = {
+            
+        };
+        accs[] = {
+            
+        };
+        };
         rockets[] = {
 			{ "tf47_m3maaws_heat", "", 1000, 1000, "" },
 			{ "tf47_m3maaws_hedp", "", 1000, 1000, "" },
@@ -375,7 +419,7 @@ class WeaponShops {
 			{ "30Rnd_9x21_Red_Mag", "", 3, 1, "" },
 			{ "30Rnd_9x21_Yellow_Mag", "", 3, 1, "" },
 			{ "30Rnd_9x21_Green_Mag", "", 3, 1, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01" "", 4, 2, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 4, 2, "" },
 			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 9, 4, "" },
 			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Red", "", 9, 4, "" },
 			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow", "", 9, 4, "" },
