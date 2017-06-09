@@ -72,3 +72,6 @@ _keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "if (_this select
 enableSaving [false, false];
 
 [] execVM "r0ed_SurvivableCrashes\init.sqf"
+
+cf = [<my_factory>, "FULL"] execVM
+"R3F_LOG\USER_FUNCT\init_creation_factory.sqf";
