@@ -12,19 +12,19 @@ class CfgSpawnPoints {
 
     class Sara {
         class Cop {
-            class HQ {
+            /*class HQ {
                 displayName = "G.O.A.T HQ";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
-            };
-			 class Modest {
+            };*/
+	  class Modest {
                 displayName = "Camp Modest";
                 spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
-			 class Corey {
+           class Corey {
                 displayName = "FOB Cory";
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
