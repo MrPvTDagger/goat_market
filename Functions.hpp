@@ -152,7 +152,7 @@ class Life_Client_Core {
         class gangDeposit {};
         class gangWithdraw {};
         class garageLBChange {};
-       // class impoundMenu {};
+        class impoundMenu {};
         class progressBar {};
         class safeFix {};
         class safeInventory {};
