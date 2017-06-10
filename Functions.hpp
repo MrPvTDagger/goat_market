@@ -117,8 +117,8 @@ class Life_Client_Core {
     class Cop {
         file = "core\cop";
         class bountyReceive {};
-        class containerInvSearch {};
-        class copInteractionMenu {};
+        //class containerInvSearch {};
+        //class copInteractionMenu {};
         class copLights {};
         class copLoadout {};
         class copMarkers {};
@@ -152,7 +152,7 @@ class Life_Client_Core {
         class gangDeposit {};
         class gangWithdraw {};
         class garageLBChange {};
-        class impoundMenu {};
+       // class impoundMenu {};
         class progressBar {};
         class safeFix {};
         class safeInventory {};
@@ -203,7 +203,7 @@ class Life_Client_Core {
         class onFired {};
         class onTakeItem {};
         class playerSkins {};
-        class playerTags {};
+       // class playerTags {};
         class postNewsBroadcast {};
         class pullOutVeh {};
         class pushObject {};
@@ -365,6 +365,6 @@ class Life_Client_Core {
         class vehInventory {};
         class vehStoreItem {};
         class vehTakeItem {};
-        class vInteractionMenu {};
+        //class vInteractionMenu {};
     };
 };
