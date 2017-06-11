@@ -2,7 +2,7 @@
  * CREATION FACTORY CONFIGURATION FILE
  * 
  * English and French comments
- * Commentaires anglais et français
+ * Commentaires anglais et franÃ§ais
  * 
  * (EN)
  * This file contains the predefined lists of available categories in the creation factory.
@@ -15,14 +15,14 @@
  * The black list is used if no white list is mentioned when calling USER_FUNCT\init_creation_factory.sqf.
  * 
  * (FR)
- * Ce fichier contient la liste des catégories disponibles dans l'usine de création.
- * Les catégories d'objets/véhicules sont les mêmes que dans l'éditeur de mission.
- * Cela correspond à l'arborescence CfgVehicleClasses dans le config file.
- * Pour ajouter une catégorie dans une des listes, vous devez écrire son nom de classe. Utilisez le "Config viewer" de BIS.
+ * Ce fichier contient la liste des catÃ©gories disponibles dans l'usine de crÃ©ation.
+ * Les catÃ©gories d'objets/vÃ©hicules sont les mÃªmes que dans l'Ã©diteur de mission.
+ * Cela correspond Ã  l'arborescence CfgVehicleClasses dans le config file.
+ * Pour ajouter une catÃ©gorie dans une des listes, vous devez Ã©crire son nom de classe. Utilisez le "Config viewer" de BIS.
  * 
- * Pour comprendre le système de white/black list, consultez les paramètres requis par USER_FUNCT\init_creation_factory.sqf
+ * Pour comprendre le systÃ¨me de white/black list, consultez les paramÃ¨tres requis par USER_FUNCT\init_creation_factory.sqf
  * Il y a trois white list "FULL", "MEDIUM" and "LIGHT", et une black list.
- * La black list est utilisée si aucune white list n'est mentionnée lors de l'appel de USER_FUNCT\init_creation_factory.sqf.
+ * La black list est utilisÃ©e si aucune white list n'est mentionnÃ©e lors de l'appel de USER_FUNCT\init_creation_factory.sqf.
  */
 
 /**
@@ -33,10 +33,10 @@
  * Set to -1 to disable the possibility to give back objects to the creation factory.
  * Note : the reimbursement amount take also into account of the damage level of the object.
  * 
- * Taux de remboursement par rapport au prix d'achat accordé à l'usine lors de la restitution d'un objet.
- * Une valeur de 0 signifie pas de crédits en retour, 0.5 donne 50% du prix d'achat, 1 correspond à 100% du prix d'achat.
- * Mettre à -1 pour désactiver la possibilité de redonner les objets à l'usine de création.
- * Note : le montant du remboursement prend aussi en compte l'état (dommage) de l'objet.
+ * Taux de remboursement par rapport au prix d'achat accordÃ© Ã  l'usine lors de la restitution d'un objet.
+ * Une valeur de 0 signifie pas de crÃ©dits en retour, 0.5 donne 50% du prix d'achat, 1 correspond Ã  100% du prix d'achat.
+ * Mettre Ã  -1 pour dÃ©sactiver la possibilitÃ© de redonner les objets Ã  l'usine de crÃ©ation.
+ * Note : le montant du remboursement prend aussi en compte l'Ã©tat (dommage) de l'objet.
  */
 R3F_LOG_CFG_CF_sell_back_bargain_rate = 0.75;
 
@@ -95,6 +95,15 @@ R3F_LOG_CFG_CF_whitelist_medium_categories = R3F_LOG_CFG_CF_whitelist_light_cate
  */
 R3F_LOG_CFG_CF_whitelist_full_categories = R3F_LOG_CFG_CF_whitelist_medium_categories +
 [
+	"Car",                              // Cars (42 entries)
+	"Armored",                          // Armored (16 entries)
+	"Air",                              // Air (19 entries)
+	"Support",                          // Supports (21 entries)
+	"Ship",                             // Ships (13 entries)
+	"Autonomous",                       // Autonomous (15 entries)
+	"Submarine",                        // Submarines (3 entries)
+	"Wreck",                            // Wrecks (24 entries)
+	"Wreck_sub",                        // Wrecks (Submerged) (5 entries)
 	"Military",                         // Objects (Military) (9 entries)
 	"Structures_Commercial",            // Structures (Commercial) (1 entries)
 	"Structures_Infrastructure",        // Structures (Infrastructure) (1 entries)
@@ -106,6 +115,41 @@ R3F_LOG_CFG_CF_whitelist_full_categories = R3F_LOG_CFG_CF_whitelist_medium_categ
 	"Structures_Slums",                 // Structures (Slums) (0 entries)
 	"Structures_Airport",               // Structures (Airport) (0 entries)
 	
+	// All in Arma
+	"Wrecks",                           // Wrecks (19 entries)
+	"Military_US_EP1",                  // Military (US) (12 entries)
+	"Military_TKA_EP1",                 // Military (TKA) (12 entries)
+	"Military_GUE_EP1",                 // Military (Guerillas) (12 entries)
+	"SupportWoodland_ACR",              // Support (woodland) (4 entries)
+	"WarfareBuildingsClassname",        // Warfare Buildings (79 entries)
+	"ArmouredD",                        // Armored (desert) (1 entries)
+	"ArmouredW",                        // Armored (woodland) (7 entries)
+	"CarD",                             // Cars (desert) (4 entries)
+	"CarW",                             // Cars (woodland) (10 entries)
+	"Military_With_side",               // Military (36 entries)
+	"WarfareClassName",                 // Warfare (16 entries)
+	"Armored_CDF",                      // Armored (CDF) (0 entries)
+	"Armored_ChDKZ",                    // Armored (Insurgency) (0 entries)
+	"Armored_USMC",                     // Armored (USMC) (0 entries)
+	"Armored_RU",                       // Armored (RU) (0 entries)
+	"Car_USMC",                         // Cars (USMC) (0 entries)
+	"Car_RU",                           // Cars (RU) (0 entries)
+	"Car_ChDKZ",                        // Cars (Insurgency) (0 entries)
+	"Car_CDF",                          // Cars (CDF) (0 entries)
+	"Air_ChDKZ",                        // Air (Insurgency) (0 entries)
+	"Air_USMC",                         // Air (USMC) (0 entries)
+	"Air_RU",                           // Air (RU) (0 entries)
+	"Air_CDF",                          // Air (CDF) (0 entries)
+	"Ship_CDF",                         // Ship (CDF) (0 entries)
+	"Ship_ChDKZ",                       // Ship (Insurgency) (0 entries)
+	"Ship_USMC",                        // Ship (USMC) (0 entries)
+	"Ship_RU",                          // Ship (RU) (0 entries)
+	"support_ChDKZ",                    // Support (Insurgency) (0 entries)
+	"support_USMC",                     // Support (USMC) (0 entries)
+	"support_RU",                       // Support (RU) (0 entries)
+	"support_CDF",                      // Support (CDF) (0 entries)
+	"Structures_E",                     // Structures EP1 (0 entries)
+	"Ruins"                             // Ruins (0 entries)
 ];
 
 /**
@@ -165,11 +209,11 @@ R3F_LOG_CFG_CF_blacklist_categories =
  * The format of the array is ["categorie class name", multiplication factor].
  * All non-listed categories have a factor of 1x.
  * 
- * Facteur de multiplication pour corriger la propriété "cost" des objets/véhicules dans le CfgVehicles.
- * Par exemple, un sous-marins SDV (Submarine) a un coût (divisé par 100) de 100 et un Hunter (Car) du 5000.
+ * Facteur de multiplication pour corriger la propriÃ©tÃ© "cost" des objets/vÃ©hicules dans le CfgVehicles.
+ * Par exemple, un sous-marins SDV (Submarine) a un coÃ»t (divisÃ© par 100) de 100 et un Hunter (Car) du 5000.
  * En appliquant un facteur de correction, le SDV (Submarine) vaut 100x4000 = 400 000 et le Hunter (Car) 5000x12 = 60 000.
- * Le format du tableau est ["nom de classe de la catégorie", facteur de multiplication]
- * Les catégories non listées ont un facteur de 1x.
+ * Le format du tableau est ["nom de classe de la catÃ©gorie", facteur de multiplication]
+ * Les catÃ©gories non listÃ©es ont un facteur de 1x.
  */
 R3F_LOG_CFG_CF_creation_cost_factor =
 [
