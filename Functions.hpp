@@ -37,40 +37,40 @@ class Life_Client_Core {
 
     class Actions {
         file = "core\actions";
-        //class arrestAction {};
+        class arrestAction {};
         class buyLicense {};
         class captureHideout {};
-        //class catchFish {};
-       // class dpFinish {};
-        //class dropFishingNet {};
-        //class escortAction {};
-        //class gather {};
-        //class getDPMission {};
-        //class gutAnimal {};
-        //class healHospital {};
-        //class impoundAction {};
-        //class mine {};
-        //class newsBroadcast {};
-        //class packupSpikes {};
+        class catchFish {};
+        class dpFinish {};
+        class dropFishingNet {};
+        class escortAction {};
+        class gather {};
+        class getDPMission {};
+        class gutAnimal {};
+        class healHospital {};
+        class impoundAction {};
+        class mine {};
+        class newsBroadcast {};
+        class packupSpikes {};
         class pickupItem {};
         class pickupMoney {};
-        //class postBail {};
+        class postBail {};
         class processAction {};
         class pulloutAction {};
-        //class putInCar {};
+        class putInCar {};
         class removeContainer {};
-        //class repairTruck {};
-        //class restrainAction {};
-        //class robAction {};
-        //class searchAction {};
-        //class searchVehAction {};
-        //class seizePlayerAction {};
-        //class serviceChopper {};
-        //class stopEscorting {};
+        class repairTruck {};
+        class restrainAction {};
+        class robAction {};
+        class searchAction {};
+        class searchVehAction {};
+        class seizePlayerAction {};
+        class serviceChopper {};
+        class stopEscorting {};
         class storeVehicle {};
-       // class surrender {};
-        //class ticketAction {};
-        //class unrestrain {};
+        class surrender {};
+        class ticketAction {};
+        class unrestrain {};
     };
 
     class Admin {
@@ -94,16 +94,16 @@ class Life_Client_Core {
         file = "core\civilian";
         class civLoadout {};
         class civMarkers {};
-        //class demoChargeTimer {};
-       // class freezePlayer {};
-        //class jail {};
-        //class jailMe {};
-        //class knockedOut {};
-        //class knockoutAction {};
-        //class removeLicenses {};
-        //class robPerson {};
-        //class robReceive {};
-       // class tazed {};
+        class demoChargeTimer {};
+        class freezePlayer {};
+        class jail {};
+        class jailMe {};
+        class knockedOut {};
+        class knockoutAction {};
+        class removeLicenses {};
+        class robPerson {};
+        class robReceive {};
+        class tazed {};
     };
 
     class Config {
@@ -116,31 +116,31 @@ class Life_Client_Core {
 
     class Cop {
         file = "core\cop";
-       // class bountyReceive {};
-       // class containerInvSearch {};
-       // class copInteractionMenu {};
-       // class copLights {};
-       // class copLoadout {};
-       // class copMarkers {};
-       // class copSearch {};
-       // class copSiren {};
-       // class doorAnimate {};
-       // class fedCamDisplay {};
-       // class licenseCheck {};
-       // class licensesRead {};
-       // class questionDealer {};
-       // class radar {};
-       // class repairDoor {};
-       // class restrain {};
-       // class searchClient {};
-      //  class seizeClient {};
-      //  class sirenLights {};
-      // class spikeStripEffect {};
-       // class ticketGive {};
-       // class ticketPaid {};
-       // class ticketPay {};
-       //class ticketPrompt {};
-       // class vehInvSearch {};
+        class bountyReceive {};
+        //class containerInvSearch {};
+        //class copInteractionMenu {};
+        class copLights {};
+        class copLoadout {};
+        class copMarkers {};
+        class copSearch {};
+        class copSiren {};
+        class doorAnimate {};
+        class fedCamDisplay {};
+        class licenseCheck {};
+        class licensesRead {};
+        class questionDealer {};
+        class radar {};
+        class repairDoor {};
+        class restrain {};
+        class searchClient {};
+        class seizeClient {};
+        class sirenLights {};
+        class spikeStripEffect {};
+        class ticketGive {};
+        class ticketPaid {};
+        class ticketPay {};
+        class ticketPrompt {};
+        class vehInvSearch {};
     };
 
     class Dialog_Controls {
@@ -149,10 +149,10 @@ class Life_Client_Core {
         class bankTransfer {};
         class bankWithdraw {};
         class displayHandler {};
-      //  class gangDeposit {};
-      //  class gangWithdraw {};
+        class gangDeposit {};
+        class gangWithdraw {};
         class garageLBChange {};
-      //  class impoundMenu {};
+        class impoundMenu {};
         class progressBar {};
         class safeFix {};
         class safeInventory {};
@@ -164,7 +164,7 @@ class Life_Client_Core {
         class spawnMenu {};
         class spawnPointCfg {};
         class spawnPointSelected {};
-      //  class unimpound {};
+        class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
     };
@@ -176,7 +176,7 @@ class Life_Client_Core {
         class actionKeyHandler {};
         class animSync {};
         class calWeightDiff {};
-        class clearVehicleAmmo {};
+        //class clearVehicleAmmo {};
         class dropItems {};
         class escInterupt {};
         class fetchCfgDetails {};
@@ -202,9 +202,9 @@ class Life_Client_Core {
         class numberText {};
         class onFired {};
         class onTakeItem {};
-     //   class playerSkins {};
-     //   class playerTags {};
-     //   class postNewsBroadcast {};
+        class playerSkins {};
+       // class playerTags {};
+        class postNewsBroadcast {};
         class pullOutVeh {};
         class pushObject {};
         class receiveItem {};
@@ -213,26 +213,26 @@ class Life_Client_Core {
         class saveGear {};
         class searchPosEmpty {};
         class simDisable {};
-    //    class stripDownPlayer {};
-    //    class tazeSound {};
+        class stripDownPlayer {};
+        class tazeSound {};
         class teleport {};
         class whereAmI {};
     };
 
     class Gangs {
         file = "core\gangs";
-     //   class createGang {};
-     //   class gangCreated {};
-     //   class gangDisband {};
-     //   class gangDisbanded {};
-     //   class gangInvite {};
-     //   class gangInvitePlayer {};
-     //   class gangKick {};
-     //   class gangLeave {};
-     //   class gangMenu {};
-     //   class gangNewLeader {};
-      //  class gangUpgrade {};
-     //   class initGang {};
+        class createGang {};
+        class gangCreated {};
+        class gangDisband {};
+        class gangDisbanded {};
+        class gangInvite {};
+        class gangInvitePlayer {};
+        class gangKick {};
+        class gangLeave {};
+        class gangMenu {};
+        class gangNewLeader {};
+        class gangUpgrade {};
+        class initGang {};
     };
 
     class Housing {
@@ -240,35 +240,35 @@ class Life_Client_Core {
         class buyHouse {};
         class buyHouseGarage {};
         class containerMenu {};
-    //    class copBreakDoor {};
-    //    class copHouseOwner {};
+        class copBreakDoor {};
+        class copHouseOwner {};
         class garageRefund {};
         class getBuildingPositions {};
         class houseMenu {};
         class initHouses {};
         class lightHouse {};
         class lightHouseAction {};
-    //    class lockHouse {};
-    //    class lockupHouse {};
+        class lockHouse {};
+        class lockupHouse {};
         class placeContainer {};
         class PlayerInBuilding {};
-     //   class raidHouse {};
+        class raidHouse {};
         class sellHouse {};
         class sellHouseGarage {};
     };
 
     class Items {
         file = "core\items";
-    //    class blastingCharge {};
-    //    class boltcutter {};
-    //    class defuseKit {};
-    //    class flashbang {};
-    //    class jerrycanRefuel {};
-    //    class jerryRefuel {};
-    //    class lockpick {};
-    //    class placestorage {};
-    //    class spikeStrip {};
-    //    class storageBox {};
+        class blastingCharge {};
+        class boltcutter {};
+        class defuseKit {};
+        class flashbang {};
+        class jerrycanRefuel {};
+        class jerryRefuel {};
+        class lockpick {};
+        class placestorage {};
+        class spikeStrip {};
+        class storageBox {};
     };
 
     class Medical_System {
@@ -278,8 +278,8 @@ class Life_Client_Core {
         class medicLoadout {};
         class medicMarkers {};
         class medicRequest {};
-    //    class medicSiren {};
-    //    class medicSirenLights {};
+        class medicSiren {};
+        class medicSirenLights {};
         class onPlayerKilled {};
         class onPlayerRespawn {};
         class requestMedic {};
@@ -300,7 +300,7 @@ class Life_Client_Core {
 
     class Player_Menu {
         file = "core\pmenu";
-    //    class cellphone {};
+        class cellphone {};
         class giveItem {};
         class giveMoney {};
         class keyDrop {};
@@ -357,7 +357,7 @@ class Life_Client_Core {
         class FuelRefuelcar {};
         class fuelStore {};
         class fuelSupply {};
-    //    class lockVehicle {};
+        class lockVehicle {};
         class openInventory {};
         class vehiclecolor3DRefresh {};
         class vehicleOwners {};
@@ -365,6 +365,6 @@ class Life_Client_Core {
         class vehInventory {};
         class vehStoreItem {};
         class vehTakeItem {};
-        class vInteractionMenu {};
+        //class vInteractionMenu {};
     };
 };
