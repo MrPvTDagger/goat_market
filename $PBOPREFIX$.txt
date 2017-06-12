@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=Users\Jein\Documents\Arma 3 - Other Profiles\Rock\missions\OFFICIAL GOAT MAPS\GOATS_SAHRANI.Sara
+Mikero=DePbo.dll
+Pbo Type is: Arma Mission Addon
+Sha: 'DA5550B31CABBBB0C05B448EFD47ED6BAEAC171E'
+//////</HEADER>//////
