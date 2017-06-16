@@ -1,15 +1,7 @@
 waitUntil {!isServer && !isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
-player createDiarySubject ["credits","Credits"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controls","Controls"];
 
 /*  Example
@@ -22,16 +14,6 @@ TEXT HERE<br/><br/>
         ]
     ];
 */
-
-    player createDiaryRecord ["credits",
-        [
-            "AsYetUntitled",
-                "
-AsYetUntitled (formerly ArmaLife) is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
-                "
-        ]
-    ];
-
     player createDiaryRecord ["changelog",
         [
             "G.O.A.T Changelog",
