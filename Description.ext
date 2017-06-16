@@ -182,6 +182,20 @@ class RscTitles {
     #include "dialog\hud_stats.hpp"
 };
 
+class CfgFunctions 
+{
+	class r0ed
+	{
+		tag = "r0ed";
+		class SurvivableCrashes
+		{
+			file = "r0ed_SurvivableCrashes\functions";
+			class vehicleCrashLocal{};
+			class crashVisualEffects{};
+			class vehicleInit{};
+		};
+	};
+};	
 
 class CfgDebriefing {
     class NotWhitelisted {

@@ -1,4 +1,5 @@
 execVM "R3F_LOG\init.sqf";
+[] execVM "r0ed_SurvivableCrashes\init.sqf"
 enableSaving [ false, false ];
 
 waitUntil {time > 0};
@@ -63,8 +64,6 @@ waituntil {!(IsNull (findDisplay 46))};
 _keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "if (_this select 1 == 219) then {createDialog 'GLO_GROUP_GUI'}"]; 
 
 enableSaving [false, false];
-
-[] execVM "r0ed_SurvivableCrashes\init.sqf"
 
 cf = [<my_factory>, "FULL"] execVM
 "R3F_LOG\USER_FUNCT\init_creation_factory.sqf";
