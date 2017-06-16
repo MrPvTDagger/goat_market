@@ -11,41 +11,6 @@ class CfgSounds
 		titles[]={};
 	};
 	    sounds[] = {};
-    class sirenLong {
-        name = "sirenLong";
-        sound[] = {"\sounds\sirenLong.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class medicSiren {
-        name = "medicSiren";
-        sound[] = {"\sounds\medicSiren.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class tazerSound {
-        name = "tazerSound";
-        sound[] = {"\sounds\tazer.ogg", 0.25, 1};
-        titles[] = {};
-    };
-
-    class flashbang {
-        name = "flashbang";
-        sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class mining {
-        name = "mining";
-        sound[] = {"\sounds\mining.ogg", 1.0, 1};
-        titles[] = {};
-    };
-
-    class harvest {
-        name = "harvest";
-        sound[] = {"\sounds\harvest.ogg", 1.0, 1};
-        titles[] = {};
-    };
 
     class lockCarSound {
         name = "lockCarSound";
