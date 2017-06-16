@@ -410,7 +410,7 @@ class ace_medical_remoteControlledAI {
     force = 1;
 };
 class ace_medical_preventInstaDeath {
-    value = 0;
+    value = 1;
     typeName = "BOOL";
     force = 1;
 };
