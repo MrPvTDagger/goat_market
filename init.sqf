@@ -72,10 +72,6 @@ cf = [<my_factory>, "FULL"] execVM
 /*
 	Author:   infiSTAR.de
 	Description:   fix Uniform + Vest bug for Exile
-	Additional Information:   untested
-	
-	Usage:
-	Postinit - so we can make use of Exile Main Thread by adding this as Task!
 */
 fnc_check_uniform_n_vest = compileFinal "
 	params ['_uniform', '_vest'];
@@ -105,5 +101,3 @@ _check_uniform_n_vest_loopcode = {
 		};
 	} forEach allPlayers;
 };
-if(!isNil'check_uniform_n_vest_THREAD')then{[check_uniform_n_vest_THREAD] call ExileServer_system_thread_removeTask;};
-check_uniform_n_vest_THREAD = [30, _check_uniform_n_vest_loopcode, [], true] call ExileServer_system_thread_addTask;
