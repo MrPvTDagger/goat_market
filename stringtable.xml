@@ -7890,7 +7890,7 @@
             <Polish>Medycy w pobliżu: %1</Polish>
         </Key>
         <Key ID="STR_Medic_Request">
-            <Original>%1 is requesting A Revive.</Original>
+            <Original>%1 Is Requesting Revive.</Original>
             <Czech>%1 požaduje EMS oživit.</Czech>
             <Spanish>%1 esta pidiendo servicio médico.</Spanish>
             <Russian></Russian>
@@ -11610,7 +11610,7 @@
     </Package>
     <Package name="TextNotifications">
         <Key ID="STR_MedicalRequestEmerg_Title">
-            <Original>EMS Requested</Original>
+            <Original>Revive Requested</Original>
             <Czech>EMS Požadované</Czech>
             <French>Medecin demandé</French>
             <Spanish>Medico Solicitado</Spanish>
