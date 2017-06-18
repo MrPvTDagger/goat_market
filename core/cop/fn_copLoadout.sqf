@@ -57,6 +57,6 @@ player  setSpeaker "ace_novoice";
 //if(name player == "Username")then{
 //player  forceAddUniform "TRYK_U_Bts_PCUODs";
 //};
-// DON'T FOR GET ENDING TAG
+// DON'T FORGET ENDING TAG
 
 [] call life_fnc_saveGear;
