@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10151;
+		nextID=10152;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5339;
+		nextID=5507;
 	};
 	class Camera
 	{
-		pos[]={13332.205,176.52316,13125.979};
-		dir[]={-0.21436563,-0.4850339,0.84782594};
-		up[]={-0.11889651,0.87448972,0.47024029};
-		aside[]={0.96949762,1.3364479e-007,0.24512921};
+		pos[]={13292.327,128.41109,13212.996};
+		dir[]={-0.18545556,-0.43084377,0.88319284};
+		up[]={-0.088542379,0.90241677,0.42166385};
+		aside[]={0.97867781,1.4912803e-007,0.20550627};
 	};
 };
 binarizationWanted=0;
@@ -680,7 +680,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1261;
+		items=1262;
 		class Item0
 		{
 			dataType="Layer";
@@ -1251,7 +1251,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8157.127,176.985,7885.9453};
-				angles[]={-0,0.77903605,0};
+				angles[]={0,0.77903605,0};
 			};
 			id=1298;
 			type="ACE_moduleAddSpareParts";
@@ -1431,8 +1431,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13286.144,124.46957,13240.107};
-				angles[]={6.244504,6.2472711,6.1752076};
+				position[]={13285.111,124.9017,13249.908};
+				angles[]={6.2625904,6.2472663,6.1573534};
 			};
 			side="Empty";
 			flags=4;
@@ -1441,6 +1441,7 @@ class Mission
 			};
 			id=1303;
 			type="B_MRAP_01_F";
+			atlOffset=-0.00073242188;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -36359,7 +36360,7 @@ class Mission
 					};
 					id=9222;
 					type="Land_Bandage_F";
-					atlOffset=-0.0001373291;
+					atlOffset=0.02204895;
 				};
 				class Item23
 				{
@@ -36377,7 +36378,7 @@ class Mission
 					};
 					id=9223;
 					type="Land_Bandage_F";
-					atlOffset=-0.00022888184;
+					atlOffset=0.02204895;
 				};
 				class Item24
 				{
@@ -44254,6 +44255,7 @@ class Mission
 			};
 			id=10084;
 			type="O_Truck_02_covered_F";
+			atlOffset=-0.043739319;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44312,6 +44314,7 @@ class Mission
 			};
 			id=10086;
 			type="Box_NATO_Equip_F";
+			atlOffset=-0.0085983276;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44398,8 +44401,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13279.191,124.5889,13238.094};
-				angles[]={6.2651882,0.30691993,6.173429};
+				position[]={13279.312,124.80784,13246.559};
+				angles[]={6.244504,6.2770381,6.2526951};
 			};
 			side="Empty";
 			flags=4;
@@ -44409,6 +44412,7 @@ class Mission
 			};
 			id=10090;
 			type="C_SUV_01_F";
+			atlOffset=-0.0053710938;
 		};
 		class Item1215
 		{
@@ -44459,6 +44463,7 @@ class Mission
 			};
 			id=10104;
 			type="Box_NATO_Equip_F";
+			atlOffset=-0.0093841553;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44554,8 +44559,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13288.016,122.87022,13232.817};
-				angles[]={6.2586904,2.5846293,6.1751752};
+				position[]={13287.733,122.89661,13232.65};
+				angles[]={6.258698,3.1588366,6.1751671};
 			};
 			side="Empty";
 			class Attributes
@@ -44564,7 +44569,7 @@ class Mission
 			};
 			id=10108;
 			type="Land_Laptop_device_F";
-			atlOffset=0.81809998;
+			atlOffset=0.81799316;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45787,7 +45792,7 @@ class Mission
 			};
 			id=10133;
 			type="Land_ClutterCutter_large_F";
-			atlOffset=0.00012207031;
+			atlOffset=0.00012969971;
 		};
 		class Item1244
 		{
@@ -45821,7 +45826,7 @@ class Mission
 			};
 			id=10135;
 			type="Land_ClutterCutter_large_F";
-			atlOffset=0.00026702881;
+			atlOffset=0.0002746582;
 		};
 		class Item1246
 		{
@@ -45964,7 +45969,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13287.17,122.18002,13240.442};
+				position[]={13286.857,122.22712,13240.788};
 				angles[]={6.244504,0,6.1752076};
 			};
 			side="Empty";
@@ -45974,7 +45979,6 @@ class Mission
 			};
 			id=10144;
 			type="Land_ClutterCutter_large_F";
-			atlOffset=0.0001449585;
 		};
 		class Item1255
 		{
@@ -46078,7 +46082,25 @@ class Mission
 			};
 			id=10150;
 			type="Land_ClutterCutter_large_F";
-			atlOffset=-8.392334e-005;
+			atlOffset=-7.6293945e-005;
+		};
+		class Item1261
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13289.092,122.74854,13232.619};
+				angles[]={6.258698,3.1050978,6.1751671};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this enableSimulation false; this allowdamage false; this addAction[""<t color='#23FF00'>Medic Loadout</t>"", ""loadouts\medic.sqf""]; this addAction[""<t color='#ffe100'>JTAC Loadout</t>"", ""loadouts\JTAC.sqf""]; this addaction[""<t color ='#2eff00'>EOD Loadout</t>"", ""loadouts\EOD.sqf""]; this addaction[""<t color ='#0055ff'>Pilot Loadout</t>"", ""loadouts\Pilot.sqf""]; this addaction[""<t color ='#e100ff'>Engineer Loadout</t>"", ""loadouts\Engineer.sqf""];}";
+				aiRadarUsage=265028;
+			};
+			id=10151;
+			type="Land_Laptop_unfolded_F";
+			atlOffset=0.81799316;
 		};
 	};
 	class Connections
