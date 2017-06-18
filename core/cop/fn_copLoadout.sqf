@@ -19,7 +19,7 @@ removeBackpack player ;
 removeHeadgear player ;
 removeGoggles player ;
 
-
+if(name player == "Dagger")then{
 player  forceAddUniform "TRYK_U_Bts_PCUODs";
 for "_i" from 1 to 4 do {player  addItemToUniform "ACE_CableTie";};
 player  addItemToUniform "ACE_EarPlugs";
@@ -51,5 +51,11 @@ player  linkItem "ItemGPS";
 player  linkItem "ACE_NVG_Gen4";
 
 player  setSpeaker "ace_novoice";
+};
+
+if(name player == "MrPvTDagger")then{
+player  forceAddUniform "TRYK_U_Bts_PCUODs";
+};
+
 
 [] call life_fnc_saveGear;
