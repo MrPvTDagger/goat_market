@@ -53,9 +53,10 @@ player  linkItem "ACE_NVG_Gen4";
 player  setSpeaker "ace_novoice";
 };
 
-if(name player == "MrPvTDagger")then{
-player  forceAddUniform "TRYK_U_Bts_PCUODs";
-};
-
+//Example: 
+//if(name player == "Username")then{
+//player  forceAddUniform "TRYK_U_Bts_PCUODs";
+//};
+// DON'T FOR GET ENDING TAG
 
 [] call life_fnc_saveGear;
