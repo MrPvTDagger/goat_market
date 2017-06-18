@@ -48,7 +48,7 @@ class Life_Client_Core {
         class getDPMission {};
         class gutAnimal {};
         class healHospital {};
-        class impoundAction {};
+    //    class impoundAction {};
         class mine {};
         class newsBroadcast {};
         class packupSpikes {};
@@ -126,8 +126,8 @@ class Life_Client_Core {
         class copSiren {};
         class doorAnimate {};
         class fedCamDisplay {};
-        class licenseCheck {};
-        class licensesRead {};
+       // class licenseCheck {};
+      //  class licensesRead {};
         class questionDealer {};
         class radar {};
         class repairDoor {};
@@ -140,7 +140,7 @@ class Life_Client_Core {
         class ticketPaid {};
         class ticketPay {};
         class ticketPrompt {};
-        class vehInvSearch {};
+     //   class vehInvSearch {};
     };
 
     class Dialog_Controls {
