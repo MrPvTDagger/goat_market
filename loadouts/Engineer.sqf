@@ -1,0 +1,11 @@
+removeBackpack player;
+player addBackpack "B_Carryall_cbr";
+player addItemToBackpack "ACE_wirecutter";
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ToolKit";
+for "_i" from 1 to 30 do {player addItemToBackpack "ACE_elasticBandage";};
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "tf_microdagr";
+player linkItem "tf_anprc152_3";
+player linkItem "ItemGPS";
