@@ -45540,7 +45540,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this enableSimulation false; this allowdamage false; this addAction[""<t color='#23FF00'>Medic Loadout</t>"", ""loadouts\loadouts\medic.sqf""]; this addAction[""<t color='#6e00ff'>Rifleman Loadout</t>"", ""loadouts\loadouts\rifleman.sqf""]; this addAction[""<t color='#00ddff'>Sniper / Spotter Loadout</t>"", ""loadouts\sniper.sqf""]; this addAction[""<t color='#ffe100'>JTAC Loadout</t>"", ""loadouts\JTAC.sqf""]; this addaction[""<t color ='#2eff00'>EOD Loadout</t>"", ""loadouts\EOD.sqf""]; this addaction[""<t color ='#0055ff'>Pilot Loadout</t>"", ""loadouts\Pilot.sqf""]; this addaction[""<t color ='#e100ff'>Engineer Loadout</t>"", ""loadouts\Engineer.sqf""];}";
+				init="call{this enableSimulation false; this allowdamage false; this addAction[""<t color='#23FF00'>Medic Loadout</t>"", ""loadouts\medic.sqf""]; this addAction[""<t color='#6e00ff'>Rifleman Loadout</t>"", ""loadouts\rifleman.sqf""]; this addAction[""<t color='#00ddff'>Sniper / Spotter Loadout</t>"", ""loadouts\sniper.sqf""]; this addAction[""<t color='#ffe100'>JTAC Loadout</t>"", ""loadouts\JTAC.sqf""]; this addaction[""<t color ='#2eff00'>EOD Loadout</t>"", ""loadouts\EOD.sqf""]; this addaction[""<t color ='#0055ff'>Pilot Loadout</t>"", ""loadouts\Pilot.sqf""]; this addaction[""<t color ='#e100ff'>Engineer Loadout</t>"", ""loadouts\Engineer.sqf""]; this setVariable [""R3F_LOG_disabled"", true];}";
 			};
 			id=10152;
 			type="Land_PaperBox_open_full_F";

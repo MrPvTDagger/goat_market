@@ -9,7 +9,7 @@ player addItemToVest "ACE_M84";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellRed";
 player addItemToVest "SmokeShellGreen";
-player addBackpack "B_AssaultPack_blk";
+player addBackpack "B_Kitbag_rgr";
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_500";};
