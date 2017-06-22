@@ -20,9 +20,8 @@ removeHeadgear player ;
 removeGoggles player ;
 
 
-player  forceAddUniform "TRYK_U_Bts_PCUODs";
-player  addVest "V_PlateCarrier2_rgr_noflag_F";
-player  addGoggles "TRYK_Shemagh_shade_G";
+this forceAddUniform "TRYK_U_pad_hood_odBK";
+this addVest "TRYK_V_ArmorVest_green2";
 player  linkItem "ItemMap";
 player  linkItem "ItemCompass";
 player  linkItem "tf_microdagr";
@@ -33,3 +32,4 @@ player  linkItem "ACE_NVG_Gen4";
 player  setSpeaker "ace_novoice";
 
 [] call life_fnc_saveGear;
+
