@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10179;
+		nextID=10185;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5619;
+		nextID=5843;
 	};
 	class Camera
 	{
-		pos[]={2322.3474,37.795406,18842.32};
-		dir[]={-0.57752085,-0.68935078,-0.43741572};
-		up[]={-0.54953158,0.72440463,-0.41621673};
-		aside[]={-0.60378498,3.1292439e-007,0.79718};
+		pos[]={2311.2175,33.694584,18816.746};
+		dir[]={-0.015058042,-0.5332666,0.84587073};
+		up[]={-0.0094923545,0.84590948,0.53323722};
+		aside[]={0.99988788,-5.3304302e-007,0.017796639};
 	};
 };
 binarizationWanted=0;
@@ -31,7 +31,6 @@ addons[]=
 {
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
-	"ace_aircraft",
 	"ace_repair",
 	"ace_medical",
 	"task_force_radio_items",
@@ -146,13 +145,14 @@ addons[]=
 	"A3_Soft_F_Beta_Truck_02",
 	"A3_Soft_F_Gamma_SUV_01",
 	"A3_Modules_F_Curator_Environment",
-	"A3_Structures_F_System"
+	"A3_Structures_F_System",
+	"ace_zeus"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=64;
+		items=65;
 		class Item0
 		{
 			className="A3_Air_F_Heli";
@@ -559,6 +559,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item64
+		{
+			className="ace_zeus";
+			name="ACE3 - Zeus";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
 	};
 };
 class DynamicSimulation
@@ -680,7 +687,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1256;
+		items=1257;
 		class Item0
 		{
 			dataType="Layer";
@@ -21315,15 +21322,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.9092,19.666739,18838.506};
-						angles[]={6.2591872,0.031975631,6.2571907};
+						position[]={2307.175,19.496584,18833.871};
+						angles[]={6.2591867,3.3044143,6.2571969};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="COLONEL";
-						init="call{[this, whitebox] call LT_fnc_lockLoadout; Rock addRating 10000000000000000000000000000000000;  enableRadio false; enableSentences false;}";
+						init="call{[this, whitebox] call LT_fnc_lockLoadout; Rock addRating 10000000000000000000000000000000000;  enableRadio false; enableSentences false;" \n "Rock addEventHandler [""Respawn"",{ " \n "removeAllWeapons Rock; " \n "removeAllItems Rock; " \n "removeAllAssignedItems Rock; " \n "removeUniform Rock; " \n "removeVest Rock; " \n "removeBackpack Rock; " \n "removeHeadgear Rock; " \n "removeGoggles Rock; " \n "Rock forceAddUniform ""TRYK_U_B_C01_Tsirt""; " \n "for ""_i"" from 1 to 4 do {Rock addItemToUniform ""ACE_CableTie"";}; " \n "Rock addItemToUniform ""ACE_EarPlugs""; " \n "Rock addItemToUniform ""ACE_IR_Strobe_Item""; " \n "Rock addItemToUniform ""ACE_Flashlight_XL50""; " \n "Rock addItemToUniform ""ACE_MapTools""; " \n "Rock addItemToUniform ""SmokeShellBlue""; " \n "Rock addItemToUniform ""SmokeShellGreen""; " \n "Rock addItemToUniform ""SmokeShellRed""; " \n "Rock addItemToUniform ""SMA_30Rnd_556x45_M855A1""; " \n "Rock addVest ""TRYK_V_ArmorVest_coyo2""; " \n "Rock addItemToVest ""ACE_morphine""; " \n "for ""_i"" from 1 to 2 do {Rock addItemToVest ""SmokeShell"";}; " \n "for ""_i"" from 1 to 2 do {Rock addItemToVest ""HandGrenade"";}; " \n "for ""_i"" from 1 to 2 do {Rock addItemToVest ""SMA_30Rnd_556x45_M855A1"";}; " \n "Rock addBackpack ""TRYK_B_Medbag_OD""; " \n "for ""_i"" from 1 to 120 do {Rock addItemToBackpack ""ACE_packingBandage"";}; " \n "Rock addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 10 do {Rock addItemToBackpack ""ACE_salineIV_500"";}; " \n "Rock addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 6 do {Rock addItemToBackpack ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 6 do {Rock addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 5 do {Rock addItemToBackpack ""ACE_salineIV"";}; " \n "for ""_i"" from 1 to 4 do {Rock addItemToBackpack ""ACE_epinephrine"";}; " \n "Rock addHeadgear ""TRYK_r_cap_od_Glasses""; " \n "Rock addWeapon ""Rangefinder""; " \n "Rock linkItem ""ItemMap""; " \n "Rock linkItem ""ItemCompass""; " \n "Rock linkItem ""ItemWatch""; " \n "Rock linkItem ""tf_anprc152_4""; " \n "Rock linkItem ""ItemGPS""; " \n "Rock linkItem ""TRYK_Shemagh_EAR_G_NV""; " \n "Rock setFace ""WhiteHead_16""; " \n "Rock setSpeaker ""male03eng""; " \n "}];}";
 						name="Rock";
 						description="Rock";
 						isPlayer=1;
@@ -21506,7 +21513,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2310.9089,19.348335,18836.891};
+						position[]={2311.8816,19.178558,18836.381};
 						angles[]={0,0.0035046586,0};
 					};
 					side="West";
@@ -21657,7 +21664,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2308.7341,19.551851,18837.863};
+						position[]={2309.585,19.571537,18839.605};
 						angles[]={6.2591872,6.248189,6.2571907};
 					};
 					side="West";
@@ -21828,13 +21835,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2305.5349,19.520151,18834.072};
-						angles[]={6.2053428,3.1568842,0.027993103};
+						angles[]={6.2053437,3.1568818,0.02799508};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{Bush addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Bush; " \n "removeAllItems Bush; " \n "removeAllAssignedItems Bush; " \n "removeUniform Bush; " \n "removeVest Bush; " \n "removeBackpack Bush; " \n "removeHeadgear Bush; " \n "removeGoggles Bush; " \n " " \n "Bush forceAddUniform ""TRYK_U_denim_hood_mc""; " \n "for ""_i"" from 1 to 4 do {Bush addItemToUniform ""ACE_CableTie"";}; " \n "Bush addItemToUniform ""ACE_EarPlugs""; " \n "Bush addItemToUniform ""ACE_MapTools""; " \n "Bush addVest ""TRYK_V_Sheriff_BA_T5""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""HandGrenade"";}; " \n "Bush addItemToVest ""SmokeShellGreen""; " \n "Bush addItemToVest ""SmokeShellRed""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""SmokeShell"";}; " \n "Bush addBackpack ""B_Carryall_oli""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_salineIV_500"";}; " \n "Bush addItemToBackpack ""ACE_wirecutter""; " \n "Bush addItemToBackpack ""ToolKit""; " \n "Bush addItemToBackpack ""ACE_EntrenchingTool""; " \n "for ""_i"" from 1 to 30 do {Bush addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_Chemlight_HiRed"";}; " \n "Bush addItemToBackpack ""ACE_Chemlight_IR""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""CUP_HandGrenade_L109A1_HE"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_HandFlare_Green"";}; " \n "Bush addHeadgear ""TRYK_ESS_CAP_OD""; " \n "Bush addGoggles ""G_Balaclava_lowprofile""; " \n " " \n "Bush addWeapon ""Binocular""; " \n " " \n "Bush linkItem ""ItemMap""; " \n "Bush linkItem ""ItemCompass""; " \n "Bush linkItem ""ItemWatch""; " \n "Bush linkItem ""tf_anprc152_27""; " \n "Bush linkItem ""ItemGPS""; " \n " " \n "Bush setFace ""WhiteHead_06""; " \n "Bush setSpeaker ""ace_novoice"";}";
+						init="call{Bush addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Bush; " \n "removeAllItems Bush; " \n "removeAllAssignedItems Bush; " \n "removeUniform Bush; " \n "removeVest Bush; " \n "removeBackpack Bush; " \n "removeHeadgear Bush; " \n "removeGoggles Bush; " \n " " \n "Bush forceAddUniform ""TRYK_U_denim_hood_mc""; " \n "for ""_i"" from 1 to 4 do {Bush addItemToUniform ""ACE_CableTie"";}; " \n "Bush addItemToUniform ""ACE_EarPlugs""; " \n "Bush addItemToUniform ""ACE_MapTools""; " \n "Bush addVest ""TRYK_V_Sheriff_BA_T5""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""HandGrenade"";}; " \n "Bush addItemToVest ""SmokeShellGreen""; " \n "Bush addItemToVest ""SmokeShellRed""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToVest ""SmokeShell"";}; " \n "Bush addBackpack ""B_Carryall_oli""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_salineIV_500"";}; " \n "Bush addItemToBackpack ""ACE_wirecutter""; " \n "Bush addItemToBackpack ""ToolKit""; " \n "Bush addItemToBackpack ""ACE_EntrenchingTool""; " \n "for ""_i"" from 1 to 30 do {Bush addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_Chemlight_HiRed"";}; " \n "Bush addItemToBackpack ""ACE_Chemlight_IR""; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""CUP_HandGrenade_L109A1_HE"";}; " \n "for ""_i"" from 1 to 2 do {Bush addItemToBackpack ""ACE_HandFlare_Green"";}; " \n "Bush addHeadgear ""TRYK_ESS_CAP_OD""; " \n "Bush addGoggles ""G_Balaclava_lowprofile""; " \n " " \n "Bush addWeapon ""Binocular""; " \n " " \n "Bush linkItem ""ItemMap""; " \n "Bush linkItem ""ItemCompass""; " \n "Bush linkItem ""ItemWatch""; " \n "Bush linkItem ""tf_anprc152_27""; " \n "Bush linkItem ""ItemGPS""; " \n " " \n "Bush setFace ""WhiteHead_06""; " \n "Bush setSpeaker ""ace_novoice"";" \n "}];}";
 						name="Bush";
 						description="Bush";
 						isPlayable=1;
@@ -22016,7 +22023,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2306.8545,19.606873,18838.119};
+						position[]={2307.7053,19.626556,18839.861};
 						angles[]={6.2591872,0.11916248,6.2571907};
 					};
 					side="West";
@@ -22186,7 +22193,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2309.8462,19.520418,18837.758};
+						position[]={2310.697,19.437103,18839.5};
 						angles[]={0,6.2787213,0};
 					};
 					side="West";
@@ -22356,7 +22363,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2306.3823,19.460943,18833.01};
+						position[]={2311.1514,19.224741,18833.377};
 						angles[]={0,3.3476639,0};
 					};
 					side="West";
@@ -22364,7 +22371,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{Hallatt addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Hallatt; " \n "removeAllItems Hallatt; " \n "removeAllAssignedItems Hallatt; " \n "removeUniform Hallatt; " \n "removeVest Hallatt; " \n "removeBackpack Hallatt; " \n "removeHeadgear Hallatt; " \n "removeGoggles Hallatt; " \n " " \n "Hallatt forceAddUniform ""TRYK_U_denim_hood_mc""; " \n "for ""_i"" from 1 to 4 do {Hallatt addItemToUniform ""ACE_CableTie"";}; " \n "Hallatt addItemToUniform ""ACE_EarPlugs""; " \n "Hallatt addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToUniform ""ACE_tourniquet"";}; " \n "Hallatt addVest ""TRYK_V_tacSVD_BK""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToVest ""CUP_HandGrenade_M67"";}; " \n "Hallatt addItemToVest ""ACE_M84""; " \n "Hallatt addItemToVest ""SmokeShellGreen""; " \n "Hallatt addItemToVest ""SmokeShellRed""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToVest ""SmokeShell"";}; " \n "Hallatt addBackpack ""TRYK_B_Kitbag_Base""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 30 do {Hallatt addItemToBackpack ""ACE_elasticBandage"";}; " \n "Hallatt addHeadgear ""TRYK_R_CAP_BLK""; " \n "Hallatt addGoggles ""TRYK_TAC_SET_MESH""; " \n " " \n "Hallatt addWeapon ""Rangefinder""; " \n " " \n "Hallatt linkItem ""ItemMap""; " \n "Hallatt linkItem ""ItemCompass""; " \n "Hallatt linkItem ""tf_microdagr""; " \n "Hallatt linkItem ""tf_anprc152_2""; " \n "Hallatt linkItem ""ItemGPS""; " \n "Hallatt linkItem ""NVGoggles_OPFOR""; " \n " " \n "Hallatt setFace ""WhiteHead_21""; " \n "Hallatt setSpeaker ""ace_novoice""; " \n "}";
+						init="call{Hallatt addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Hallatt; " \n "removeAllItems Hallatt; " \n "removeAllAssignedItems Hallatt; " \n "removeUniform Hallatt; " \n "removeVest Hallatt; " \n "removeBackpack Hallatt; " \n "removeHeadgear Hallatt; " \n "removeGoggles Hallatt; " \n " " \n "Hallatt forceAddUniform ""TRYK_U_denim_hood_mc""; " \n "for ""_i"" from 1 to 4 do {Hallatt addItemToUniform ""ACE_CableTie"";}; " \n "Hallatt addItemToUniform ""ACE_EarPlugs""; " \n "Hallatt addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToUniform ""ACE_tourniquet"";}; " \n "Hallatt addVest ""TRYK_V_tacSVD_BK""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToVest ""CUP_HandGrenade_M67"";}; " \n "Hallatt addItemToVest ""ACE_M84""; " \n "Hallatt addItemToVest ""SmokeShellGreen""; " \n "Hallatt addItemToVest ""SmokeShellRed""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToVest ""SmokeShell"";}; " \n "Hallatt addBackpack ""TRYK_B_Kitbag_Base""; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Hallatt addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 30 do {Hallatt addItemToBackpack ""ACE_elasticBandage"";}; " \n "Hallatt addHeadgear ""TRYK_R_CAP_BLK""; " \n "Hallatt addGoggles ""TRYK_TAC_SET_MESH""; " \n " " \n "Hallatt addWeapon ""Rangefinder""; " \n " " \n "Hallatt linkItem ""ItemMap""; " \n "Hallatt linkItem ""ItemCompass""; " \n "Hallatt linkItem ""tf_microdagr""; " \n "Hallatt linkItem ""tf_anprc152_2""; " \n "Hallatt linkItem ""ItemGPS""; " \n "Hallatt linkItem ""NVGoggles_OPFOR""; " \n " " \n "Hallatt setFace ""WhiteHead_21""; " \n "Hallatt setSpeaker ""ace_novoice""; " \n "}];}";
 						name="Hallatt";
 						description="Hallatt";
 						isPlayable=1;
@@ -22527,7 +22534,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2305.8457,19.607964,18837.072};
+						position[]={2306.0281,19.67289,18839.975};
 						angles[]={6.2591872,0.050649885,6.2571907};
 					};
 					side="West";
@@ -22718,14 +22725,14 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2303.4041,19.468388,18834.174};
-						angles[]={6.2053428,3.1645439,0.027993103};
+						angles[]={6.2053437,3.1645439,0.02799508};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{Shagrix addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "" \n "removeAllWeapons Shagrix; " \n "removeAllItems Shagrix; " \n "removeAllAssignedItems Shagrix; " \n "removeUniform Shagrix; removeVest Shagrix; " \n "removeBackpack Shagrix; " \n "removeHeadgear Shagrix; " \n "removeGoggles Shagrix; " \n " " \n "Shagrix forceAddUniform ""TRYK_T_TAN_PAD""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToUniform ""ACE_CableTie"";}; " \n "Shagrix addItemToUniform ""ACE_EarPlugs""; " \n "Shagrix addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 10 do {Shagrix addItemToUniform ""ACE_IR_Strobe_Item"";}; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToUniform ""ACE_tourniquet"";}; " \n "Shagrix addVest ""V_PlateCarrier1_blk""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToVest ""SmokeShell"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""HandGrenade"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""ACE_M84"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""ACE_HandFlare_Red"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""SmokeShellRed"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""SmokeShellGreen"";}; " \n "Shagrix addBackpack ""TRYK_B_Carryall_blk""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Shagrix addItemToBackpack ""ACE_elasticBandage"";}; " \n "Shagrix addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 10 do {Shagrix addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 5 do {Shagrix addItemToBackpack ""ACE_salineIV"";}; " \n "Shagrix addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 6 do {Shagrix addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToBackpack ""SmokeShell"";}; " \n "Shagrix addHeadgear ""H_HelmetSpecB_blk""; Shagrix addGoggles ""TRYK_US_ESS_Glasses""; " \n " " \n "  " \n "Shagrix linkItem ""ItemMap""; " \n "Shagrix linkItem ""ItemCompass""; " \n "Shagrix linkItem ""tf_microdagr""; " \n "Shagrix linkItem ""tf_anprc152_2""; " \n "Shagrix linkItem ""ItemGPS""; " \n "Shagrix linkItem ""TRYK_Shemagh_EAR_NV""; " \n " " \n " Shagrix setFace ""WhiteHead_12""; " \n " Shagrix setSpeaker ""ace_novoice"";}";
+						init="call{Shagrix addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Shagrix; " \n "removeAllItems Shagrix; " \n "removeAllAssignedItems Shagrix; " \n "removeUniform Shagrix; removeVest Shagrix; " \n "removeBackpack Shagrix; " \n "removeHeadgear Shagrix; " \n "removeGoggles Shagrix; " \n " " \n "Shagrix forceAddUniform ""TRYK_T_TAN_PAD""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToUniform ""ACE_CableTie"";}; " \n "Shagrix addItemToUniform ""ACE_EarPlugs""; " \n "Shagrix addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 10 do {Shagrix addItemToUniform ""ACE_IR_Strobe_Item"";}; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToUniform ""ACE_tourniquet"";}; " \n "Shagrix addVest ""V_PlateCarrier1_blk""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToVest ""SmokeShell"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""HandGrenade"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""ACE_M84"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""ACE_HandFlare_Red"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""SmokeShellRed"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToVest ""SmokeShellGreen"";}; " \n "Shagrix addBackpack ""TRYK_B_Carryall_blk""; " \n "for ""_i"" from 1 to 4 do {Shagrix addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Shagrix addItemToBackpack ""ACE_elasticBandage"";}; " \n "Shagrix addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 10 do {Shagrix addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 5 do {Shagrix addItemToBackpack ""ACE_salineIV"";}; " \n "Shagrix addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 6 do {Shagrix addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Shagrix addItemToBackpack ""SmokeShell"";}; " \n "Shagrix addHeadgear ""H_HelmetSpecB_blk""; Shagrix addGoggles ""TRYK_US_ESS_Glasses""; " \n " " \n "  " \n "Shagrix linkItem ""ItemMap""; " \n "Shagrix linkItem ""ItemCompass""; " \n "Shagrix linkItem ""tf_microdagr""; " \n "Shagrix linkItem ""tf_anprc152_2""; " \n "Shagrix linkItem ""ItemGPS""; " \n "Shagrix linkItem ""TRYK_Shemagh_EAR_NV""; " \n " " \n "Shagrix setFace ""WhiteHead_12""; " \n "Shagrix setSpeaker ""ace_novoice"";" \n "}];}";
 						name="Shagrix";
 						description="Shagrix";
 						isPlayable=1;
@@ -22907,7 +22914,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2305.8823,19.633232,18838.164};
+						position[]={2305.3545,19.613092,18836.754};
 						angles[]={6.2591872,0.10562636,6.2571907};
 					};
 					side="West";
@@ -23097,7 +23104,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.1125,19.709131,18839.41};
+						position[]={2307.4756,19.553255,18836.559};
 						angles[]={0,6.2322984,0};
 					};
 					side="West";
@@ -23268,8 +23275,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2309.6812,19.505428,18836.955};
-						angles[]={6.2591872,0.013761758,6.2571907};
+						position[]={2311.7786,19.205389,18839.373};
+						angles[]={0.031988446,0.013761758,6.0685434};
 					};
 					side="West";
 					flags=4;
@@ -23439,7 +23446,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.1204,19.656107,18837.209};
+						position[]={2306.2957,19.587595,18836.711};
 						angles[]={6.2591872,0.096584357,6.2571907};
 					};
 					side="West";
@@ -23609,8 +23616,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2307.8223,19.578371,18837.98};
-						angles[]={6.2591872,0.22625646,6.2571907};
+						position[]={2309.5525,19.494774,18836.371};
+						angles[]={6.2591872,0.088716358,6.2571907};
 					};
 					side="West";
 					flags=4;
@@ -23779,8 +23786,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.0747,19.687294,18838.459};
-						angles[]={6.2591872,0.086953498,6.2571907};
+						position[]={2304.9255,19.678902,18840.201};
+						angles[]={0.16157907,0.086953498,6.2571907};
 					};
 					side="West";
 					flags=4;
@@ -23969,7 +23976,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2307.7393,19.55718,18837.008};
+						position[]={2307.0081,19.64624,18839.926};
 						angles[]={0,0.1051062,0};
 					};
 					side="West";
@@ -24159,7 +24166,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2310.7917,19.386217,18837.678};
+						position[]={2310.4824,19.40427,18836.342};
 						angles[]={6.259192,0.02929179,6.1225805};
 					};
 					side="West";
@@ -24349,15 +24356,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2308.5581,19.534218,18836.938};
-						angles[]={6.2591872,6.2111673,6.2571907};
+						position[]={2313.604,18.825642,18833.303};
+						angles[]={6.2591867,3.1938651,6.1225801};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{Levi addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Levi addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{ " \n "removeAllWeapons Levi; " \n "removeAllItems Levi; " \n "removeAllAssignedItems Levi; " \n "removeUniform Levi; " \n "removeVest Levi; " \n "removeBackpack Levi; " \n "removeHeadgear Levi; " \n "removeGoggles Levi; " \n "Levi forceAddUniform ""TRYK_U_B_ODTAN""; " \n "for ""_i"" from 1 to 2 do {Levi addItemToUniform ""ACE_CableTie"";}; " \n "Levi addItemToUniform ""ACE_EarPlugs""; " \n "Levi addItemToUniform ""ACE_Flashlight_XL50""; " \n "Levi addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Levi addItemToUniform ""ACE_tourniquet"";}; " \n "Levi addItemToUniform ""ACE_Kestrel4500""; " \n "Levi addItemToUniform ""ACE_RangeCard""; " \n "for ""_i"" from 1 to 2 do {Levi addItemToUniform ""SmokeShell"";}; " \n "Levi addItemToUniform ""SmokeShellRed""; " \n "Levi addItemToUniform ""SmokeShellBlue""; " \n "Levi addItemToUniform ""SmokeShellGreen""; " \n "Levi addVest ""TRYK_V_ArmorVest_coyo""; " \n "Levi addBackpack ""TRYK_B_Kitbag_blk""; " \n "for ""_i"" from 1 to 4 do {Levi addItemToBackpack ""ACE_epinephrine"";}; " \n "Levi addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 5 do {Levi addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 2 do {Levi addItemToBackpack ""ACE_salineIV"";}; " \n "Levi addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 6 do {Levi addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Levi addItemToBackpack ""ACE_IR_Strobe_Item"";}; " \n "for ""_i"" from 1 to 50 do {Levi addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Levi addItemToBackpack ""SmokeShell"";}; " \n "Levi addHeadgear ""H_MilCap_gry""; " \n "Levi addGoggles ""G_Bandanna_blk""; " \n "Levi addWeapon ""Binocular""; " \n "Levi linkItem ""ItemMap""; " \n "Levi linkItem ""ItemCompass""; " \n "Levi linkItem ""tf_microdagr""; " \n "Levi linkItem ""tf_anprc152_1""; " \n "Levi linkItem ""ItemGPS""; " \n "Levi linkItem ""TRYK_Shemagh_shade_MESH""; " \n "Levi setFace ""WhiteHead_12""; " \n "Levi setSpeaker ""ace_novoice""; " \n "}];}";
 						name="Levi";
 						description="Levi";
 						isPlayable=1;
@@ -24539,14 +24546,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.9832,19.633436,18837.199};
-						angles[]={6.2591872,0.13640261,6.2571907};
+						position[]={2312.0911,19.07369,18833.426};
+						angles[]={6.2591867,3.2420015,6.1225801};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{DJ addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{DJ addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{ " \n "removeAllWeapons DJ; " \n "removeAllItems DJ; " \n "removeAllAssignedItems DJ; " \n "removeUniform DJ; " \n "removeVest DJ; " \n "removeBackpack DJ; " \n "removeHeadgear DJ; " \n "removeGoggles DJ; " \n "DJ forceAddUniform ""TRYK_U_B_PCUGs_OD""; " \n "DJ addItemToUniform ""SmokeShell""; " \n "for ""_i"" from 1 to 2 do {DJ addItemToUniform ""CUP_HandGrenade_M67"";}; " \n "DJ addItemToUniform ""SmokeShellRed""; " \n "DJ addItemToUniform ""SmokeShellGreen""; " \n "DJ addVest ""V_PlateCarrier2_rgr_noflag_F""; " \n "DJ addItemToVest ""ACE_MapTools""; " \n "for ""_i"" from 1 to 5 do {DJ addItemToVest ""ACE_CableTie"";}; " \n "DJ addItemToVest ""ACE_EarPlugs""; " \n "DJ addItemToVest ""ACE_Flashlight_XL50""; " \n "DJ addItemToVest ""ACE_Kestrel4500""; " \n "for ""_i"" from 1 to 4 do {DJ addItemToVest ""ACE_IR_Strobe_Item"";}; " \n "for ""_i"" from 1 to 6 do {DJ addItemToVest ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 6 do {DJ addItemToVest ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 5 do {DJ addItemToVest ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 5 do {DJ addItemToVest ""ACE_quikclot"";}; " \n "for ""_i"" from 1 to 5 do {DJ addItemToVest ""ACE_packingBandage"";}; " \n "DJ addItemToVest ""ACE_Banana""; " \n "DJ addItemToVest ""ACE_bodyBag""; " \n "DJ addItemToVest ""ACE_M84""; " \n "DJ addBackpack ""tf_rt1523g_big_bwmod""; " \n "for ""_i"" from 1 to 5 do {DJ addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 5 do {DJ addItemToBackpack ""ACE_quikclot"";}; " \n "for ""_i"" from 1 to 5 do {DJ addItemToBackpack ""ACE_packingBandage"";}; " \n "DJ addItemToBackpack ""ACE_SpottingScope""; " \n "DJ addItemToBackpack ""ACE_Banana""; " \n "DJ addItemToBackpack ""ACE_NVG_Gen4""; " \n "for ""_i"" from 1 to 2 do {DJ addItemToBackpack ""ACE_salineIV"";}; " \n "DJ addItemToBackpack ""ACE_surgicalKit""; " \n "DJ addItemToBackpack ""ACE_RangeCard""; " \n "for ""_i"" from 1 to 2 do {DJ addItemToBackpack ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 2 do {DJ addItemToBackpack ""ACE_salineIV_500"";}; " \n "DJ addHeadgear ""H_StrawHat_dark""; " \n "DJ addGoggles ""TRYK_Shemagh""; " \n "DJ addWeapon ""Laserdesignator_01_khk_F""; " \n "DJ linkItem ""ItemMap""; " \n "DJ linkItem ""ItemCompass""; " \n "DJ linkItem ""tf_microdagr""; " \n "DJ linkItem ""tf_anprc152_2""; " \n "DJ linkItem ""B_UavTerminal""; " \n "DJ setFace ""WhiteHead_20""; " \n "DJ setSpeaker ""cup_d_male01_ru""; " \n "}];}";
 						name="DJ";
 						description="DJ";
 						isPlayable=1;
@@ -24709,15 +24716,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.543,19.495232,18834.109};
-						angles[]={0,3.2180495,0};
+						position[]={2304.543,19.495422,18834.111};
+						angles[]={0,3.2180555,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="CAPTAIN";
-						init="call{Konk addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Konk; " \n "removeAllItems Konk; " \n "removeAllAssignedItems Konk; " \n "removeUniform Konk; " \n "removeVest Konk; " \n "removeBackpack Konk; " \n "removeHeadgear Konk; " \n "removeGoggles Konk; " \n " " \n "Konk forceAddUniform ""TRYK_U_B_Denim_T_BK""; " \n "for ""_i"" from 1 to 4 do {Konk addItemToUniform ""ACE_CableTie"";}; " \n "Konk addItemToUniform ""ACE_EarPlugs""; " \n "Konk addItemToUniform ""ACE_IR_Strobe_Item""; " \n "Konk addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Konk addItemToUniform ""SmokeShell"";}; " \n "Konk addItemToUniform ""SmokeShellRed""; " \n "Konk addItemToUniform ""SmokeShellBlue""; " \n "Konk addItemToUniform ""SmokeShellGreen""; " \n "Konk addVest ""V_PlateCarrier1_rgr_noflag_F""; " \n "for ""_i"" from 1 to 2 do {Konk addItemToVest ""HandGrenade"";}; " \n "for ""_i"" from 1 to 2 do {Konk addItemToVest ""ACE_M84"";}; " \n "Konk addBackpack ""TRYK_B_Medbag_BK""; " \n "for ""_i"" from 1 to 100 do {Konk addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 4 do {Konk addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 6 do {Konk addItemToBackpack ""ACE_morphine"";}; " \n "Konk addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 5 do {Konk addItemToBackpack ""ACE_salineIV"";}; " \n "for ""_i"" from 1 to 10 do {Konk addItemToBackpack ""ACE_salineIV_500"";}; " \n "Konk addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 4 do {Konk addItemToBackpack ""ACE_tourniquet"";}; " \n "Konk addItemToBackpack ""CUP_NVG_HMNVS""; " \n "Konk addItemToBackpack ""H_HelmetB_light""; " \n "Konk addItemToBackpack ""ACE_PreloadedMissileDummy_NLAW_CUP""; " \n "Konk addHeadgear ""CUP_H_PMC_Cap_PRR_Burberry""; " \n "Konk addGoggles ""G_Sport_Blackyellow""; " \n " " \n "Konk addWeapon ""Rangefinder""; " \n " " \n "Konk linkItem ""ItemMap""; " \n "Konk linkItem ""ItemCompass""; " \n "Konk linkItem ""ACE_Altimeter""; " \n "Konk linkItem ""tf_anprc152_55""; " \n "Konk linkItem ""ItemGPS""; " \n " " \n "Konk setFace ""WhiteHead_20""; " \n "Konk setSpeaker ""ace_novoice""; }";
+						init="call{Konk addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Konk; " \n "removeAllItems Konk; " \n "removeAllAssignedItems Konk; " \n "removeUniform Konk; " \n "removeVest Konk; " \n "removeBackpack Konk; " \n "removeHeadgear Konk; " \n "removeGoggles Konk; " \n " " \n "Konk forceAddUniform ""TRYK_U_B_Denim_T_BK""; " \n "for ""_i"" from 1 to 4 do {Konk addItemToUniform ""ACE_CableTie"";}; " \n "Konk addItemToUniform ""ACE_EarPlugs""; " \n "Konk addItemToUniform ""ACE_IR_Strobe_Item""; " \n "Konk addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Konk addItemToUniform ""SmokeShell"";}; " \n "Konk addItemToUniform ""SmokeShellRed""; " \n "Konk addItemToUniform ""SmokeShellBlue""; " \n "Konk addItemToUniform ""SmokeShellGreen""; " \n "Konk addVest ""V_PlateCarrier1_rgr_noflag_F""; " \n "for ""_i"" from 1 to 2 do {Konk addItemToVest ""HandGrenade"";}; " \n "for ""_i"" from 1 to 2 do {Konk addItemToVest ""ACE_M84"";}; " \n "Konk addBackpack ""TRYK_B_Medbag_BK""; " \n "for ""_i"" from 1 to 100 do {Konk addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 4 do {Konk addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 6 do {Konk addItemToBackpack ""ACE_morphine"";}; " \n "Konk addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 5 do {Konk addItemToBackpack ""ACE_salineIV"";}; " \n "for ""_i"" from 1 to 10 do {Konk addItemToBackpack ""ACE_salineIV_500"";}; " \n "Konk addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 4 do {Konk addItemToBackpack ""ACE_tourniquet"";}; " \n "Konk addItemToBackpack ""CUP_NVG_HMNVS""; " \n "Konk addItemToBackpack ""H_HelmetB_light""; " \n "Konk addItemToBackpack ""ACE_PreloadedMissileDummy_NLAW_CUP""; " \n "Konk addHeadgear ""CUP_H_PMC_Cap_PRR_Burberry""; " \n "Konk addGoggles ""G_Sport_Blackyellow""; " \n " " \n "Konk addWeapon ""Rangefinder""; " \n " " \n "Konk linkItem ""ItemMap""; " \n "Konk linkItem ""ItemCompass""; " \n "Konk linkItem ""ACE_Altimeter""; " \n "Konk linkItem ""tf_anprc152_55""; " \n "Konk linkItem ""ItemGPS""; " \n " " \n "Konk setFace ""WhiteHead_20""; " \n "Konk setSpeaker ""ace_novoice"";" \n "}]; }";
 						name="Konk";
 						description="Konk";
 						isPlayable=1;
@@ -24880,15 +24887,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2303.533,19.41287,18833.416};
-						angles[]={6.2053437,3.2850761,0.02799508};
+						position[]={2308.302,19.465117,18833.781};
+						angles[]={6.2591867,3.2850761,6.2571969};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{Mike addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Mike; " \n "removeAllItems Mike; " \n "removeAllAssignedItems Mike; " \n "removeUniform Mike; " \n "removeVest Mike; " \n "removeBackpack Mike; " \n "removeHeadgear Mike; " \n "removeGoggles Mike; " \n " " \n "Mike forceAddUniform ""U_I_G_resistanceLeader_F""; " \n "for ""_i"" from 1 to 4 do {Mike addItemToUniform ""ACE_CableTie"";}; " \n "Mike addItemToUniform ""ACE_EarPlugs""; " \n "Mike addItemToUniform ""ACE_MapTools""; " \n "Mike addItemToUniform ""ACE_Flashlight_XL50""; " \n "Mike addVest ""V_PlateCarrier1_rgr_noflag_F""; " \n "for ""_i"" from 1 to 2 do {Mike addItemToVest ""HandGrenade"";}; " \n "Mike addItemToVest ""ACE_M84""; " \n "Mike addItemToVest ""SmokeShellRed""; " \n "Mike addItemToVest ""SmokeShellGreen""; " \n "for ""_i"" from 1 to 2 do {Mike addItemToVest ""SmokeShell"";}; " \n "Mike addBackpack ""TRYK_B_Medbag_BK""; " \n "Mike addItemToBackpack ""ACE_surgicalKit""; " \n "Mike addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 5 do {Mike addItemToBackpack ""ACE_salineIV"";}; " \n "for ""_i"" from 1 to 10 do {Mike addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 6 do {Mike addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 4 do {Mike addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Mike addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Mike addItemToBackpack ""ACE_tourniquet"";}; " \n "Mike addHeadgear ""TRYK_R_CAP_BLK""; " \n "Mike addGoggles ""G_Bandanna_beast""; " \n " " \n "Mike linkItem ""ItemMap""; " \n "Mike linkItem ""ItemCompass""; " \n "Mike linkItem ""tf_microdagr""; " \n "Mike linkItem ""tf_anprc152_20""; " \n "Mike linkItem ""CUP_NVG_PVS14""; " \n " " \n "Mike setFace ""WhiteHead_20""; " \n "Mike setSpeaker ""ace_novoice"";" \n "}";
+						init="call{Mike addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Mike; " \n "removeAllItems Mike; " \n "removeAllAssignedItems Mike; " \n "removeUniform Mike; " \n "removeVest Mike; " \n "removeBackpack Mike; " \n "removeHeadgear Mike; " \n "removeGoggles Mike; " \n " " \n "Mike forceAddUniform ""U_I_G_resistanceLeader_F""; " \n "for ""_i"" from 1 to 4 do {Mike addItemToUniform ""ACE_CableTie"";}; " \n "Mike addItemToUniform ""ACE_EarPlugs""; " \n "Mike addItemToUniform ""ACE_MapTools""; " \n "Mike addItemToUniform ""ACE_Flashlight_XL50""; " \n "Mike addVest ""V_PlateCarrier1_rgr_noflag_F""; " \n "for ""_i"" from 1 to 2 do {Mike addItemToVest ""HandGrenade"";}; " \n "Mike addItemToVest ""ACE_M84""; " \n "Mike addItemToVest ""SmokeShellRed""; " \n "Mike addItemToVest ""SmokeShellGreen""; " \n "for ""_i"" from 1 to 2 do {Mike addItemToVest ""SmokeShell"";}; " \n "Mike addBackpack ""TRYK_B_Medbag_BK""; " \n "Mike addItemToBackpack ""ACE_surgicalKit""; " \n "Mike addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 5 do {Mike addItemToBackpack ""ACE_salineIV"";}; " \n "for ""_i"" from 1 to 10 do {Mike addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 6 do {Mike addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 4 do {Mike addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Mike addItemToBackpack ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Mike addItemToBackpack ""ACE_tourniquet"";}; " \n "Mike addHeadgear ""TRYK_R_CAP_BLK""; " \n "Mike addGoggles ""G_Bandanna_beast""; " \n " " \n "Mike linkItem ""ItemMap""; " \n "Mike linkItem ""ItemCompass""; " \n "Mike linkItem ""tf_microdagr""; " \n "Mike linkItem ""tf_anprc152_20""; " \n "Mike linkItem ""CUP_NVG_PVS14""; " \n " " \n "Mike setFace ""WhiteHead_20""; " \n "Mike setSpeaker ""ace_novoice"";" \n "}];}";
 						name="Mike";
 						description="Mike";
 						isPlayable=1;
@@ -25032,15 +25039,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2304.6133,19.432264,18833.277};
-						angles[]={6.2053428,3.1558521,0.027993103};
+						position[]={2309.3823,19.433718,18833.643};
+						angles[]={6.2591872,3.1558521,6.2571907};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{Bones addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Bones; " \n "removeAllItems Bones; " \n "removeAllAssignedItems Bones; " \n "removeUniform Bones; " \n "removeVest Bones; " \n "removeBackpack Bones; " \n "removeHeadgear Bones; " \n "removeGoggles Bones; " \n " " \n "Bones forceAddUniform ""TRYK_shirts_PAD_BK""; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""ACE_CableTie"";}; " \n "Bones addItemToUniform ""ACE_EarPlugs""; " \n "Bones addItemToUniform ""ACE_Flashlight_XL50""; " \n "Bones addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""SmokeShell"";}; " \n "Bones addItemToUniform ""SmokeShellRed""; " \n "Bones addItemToUniform ""SmokeShellBlue""; " \n "Bones addItemToUniform ""SmokeShellGreen""; " \n "Bones addVest ""TRYK_V_PlateCarrier_blk_L""; " \n "Bones addBackpack ""TRYK_B_Medbag_BK""; " \n "for ""_i"" from 1 to 4 do {Bones addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Bones addItemToBackpack ""ACE_elasticBandage"";}; " \n "Bones addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 10 do {Bones addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 5 do {Bones addItemToBackpack ""ACE_salineIV"";}; " \n "Bones addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 6 do {Bones addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Bones addItemToBackpack ""SmokeShell"";}; " \n "Bones addGoggles ""TRYK_Shemagh_EAR_TAN""; " \n " " \n "Bones addWeapon ""Rangefinder""; " \n " " \n "Bones linkItem ""ItemMap""; " \n "Bones linkItem ""ItemCompass""; " \n "Bones linkItem ""tf_microdagr""; " \n "Bones linkItem ""tf_anprc152_13""; " \n "Bones linkItem ""ItemGPS""; " \n "Bones linkItem ""ACE_NVG_Wide""; " \n " " \n "Bones setFace ""WhiteHead_20""; " \n "Bones setSpeaker ""ace_novoice""; " \n "}";
+						init="call{Bones addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Bones; " \n "removeAllItems Bones; " \n "removeAllAssignedItems Bones; " \n "removeUniform Bones; " \n "removeVest Bones; " \n "removeBackpack Bones; " \n "removeHeadgear Bones; " \n "removeGoggles Bones; " \n " " \n "Bones forceAddUniform ""TRYK_shirts_PAD_BK""; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""ACE_CableTie"";}; " \n "Bones addItemToUniform ""ACE_EarPlugs""; " \n "Bones addItemToUniform ""ACE_Flashlight_XL50""; " \n "Bones addItemToUniform ""ACE_MapTools""; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""ACE_tourniquet"";}; " \n "for ""_i"" from 1 to 2 do {Bones addItemToUniform ""SmokeShell"";}; " \n "Bones addItemToUniform ""SmokeShellRed""; " \n "Bones addItemToUniform ""SmokeShellBlue""; " \n "Bones addItemToUniform ""SmokeShellGreen""; " \n "Bones addVest ""TRYK_V_PlateCarrier_blk_L""; " \n "Bones addBackpack ""TRYK_B_Medbag_BK""; " \n "for ""_i"" from 1 to 4 do {Bones addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 100 do {Bones addItemToBackpack ""ACE_elasticBandage"";}; " \n "Bones addItemToBackpack ""ACE_surgicalKit""; " \n "for ""_i"" from 1 to 10 do {Bones addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 5 do {Bones addItemToBackpack ""ACE_salineIV"";}; " \n "Bones addItemToBackpack ""ACE_personalAidKit""; " \n "for ""_i"" from 1 to 6 do {Bones addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Bones addItemToBackpack ""SmokeShell"";}; " \n "Bones addGoggles ""TRYK_Shemagh_EAR_TAN""; " \n " " \n "Bones addWeapon ""Rangefinder""; " \n " " \n "Bones linkItem ""ItemMap""; " \n "Bones linkItem ""ItemCompass""; " \n "Bones linkItem ""tf_microdagr""; " \n "Bones linkItem ""tf_anprc152_13""; " \n "Bones linkItem ""ItemGPS""; " \n "Bones linkItem ""ACE_NVG_Wide""; " \n " " \n "Bones setFace ""WhiteHead_20""; " \n "Bones setSpeaker ""ace_novoice""; " \n "}];}";
 						name="Bones";
 						description="Bones";
 						isPlayable=1;
@@ -25222,7 +25229,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2306.7969,19.584612,18837.129};
+						position[]={2308.4551,19.526352,18836.498};
 						angles[]={6.2591872,6.2779899,6.2571907};
 					};
 					side="West";
@@ -25412,14 +25419,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2306.3606,19.518141,18833.887};
-						angles[]={6.2591872,3.1541891,6.2571907};
+						position[]={2306.3611,19.518129,18833.887};
+						angles[]={6.2591867,3.1541939,6.2571969};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{Dagger addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Dagger; " \n "removeAllItems Dagger; " \n "removeAllAssignedItems Dagger; " \n "removeUniform Dagger; " \n "removeVest Dagger; " \n "removeBackpack Dagger; " \n "removeHeadgear Dagger; " \n "removeGoggles Dagger; " \n " " \n "Dagger forceAddUniform ""TRYK_U_pad_hood_odBK""; " \n "for ""_i"" from 1 to 6 do {Dagger addItemToUniform ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 7 do {Dagger addItemToUniform ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Dagger addItemToUniform ""ACE_CableTie"";}; " \n "Dagger addItemToUniform ""ACE_EarPlugs""; " \n "Dagger addItemToUniform ""ACE_Flashlight_XL50""; " \n "for ""_i"" from 1 to 2 do {Dagger addItemToUniform ""CUP_HandGrenade_M67"";}; " \n "Dagger addVest ""TRYK_V_ArmorVest_Brown2""; " \n "for ""_i"" from 1 to 3 do {Dagger addItemToVest ""SmokeShell"";}; " \n "Dagger addItemToVest ""SmokeShellYellow""; " \n "Dagger addItemToVest ""SmokeShellRed""; " \n "Dagger addItemToVest ""SmokeShellOrange""; " \n "Dagger addItemToVest ""SmokeShellGreen""; " \n "Dagger addItemToVest ""SmokeShellPurple""; " \n "Dagger addHeadgear ""TRYK_R_CAP_OD_US""; " \n "Dagger addGoggles ""G_Bandanna_beast""; " \n " " \n "Dagger addWeapon ""Rangefinder""; " \n " " \n "Dagger linkItem ""ItemMap""; " \n "Dagger linkItem ""ItemCompass""; " \n "Dagger linkItem ""ItemWatch""; " \n "Dagger linkItem ""tf_anprc152_1""; " \n "Dagger linkItem ""ItemGPS""; " \n "Dagger linkItem ""TRYK_Shemagh_G_NV""; " \n " " \n "Dagger setFace ""AfricanHead_03""; " \n "Dagger setSpeaker ""ace_novoice""; " \n "[Dagger,""BI""] call bis_fnc_setUnitInsignia;}";
+						init="call{Dagger addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Dagger; " \n "removeAllItems Dagger; " \n "removeAllAssignedItems Dagger; " \n "removeUniform Dagger; " \n "removeVest Dagger; " \n "removeBackpack Dagger; " \n "removeHeadgear Dagger; " \n "removeGoggles Dagger; " \n " " \n "Dagger forceAddUniform ""TRYK_U_pad_hood_odBK""; " \n "for ""_i"" from 1 to 6 do {Dagger addItemToUniform ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 7 do {Dagger addItemToUniform ""ACE_elasticBandage"";}; " \n "for ""_i"" from 1 to 2 do {Dagger addItemToUniform ""ACE_CableTie"";}; " \n "Dagger addItemToUniform ""ACE_EarPlugs""; " \n "Dagger addItemToUniform ""ACE_Flashlight_XL50""; " \n "for ""_i"" from 1 to 2 do {Dagger addItemToUniform ""CUP_HandGrenade_M67"";}; " \n "Dagger addVest ""TRYK_V_ArmorVest_Brown2""; " \n "for ""_i"" from 1 to 3 do {Dagger addItemToVest ""SmokeShell"";}; " \n "Dagger addItemToVest ""SmokeShellYellow""; " \n "Dagger addItemToVest ""SmokeShellRed""; " \n "Dagger addItemToVest ""SmokeShellOrange""; " \n "Dagger addItemToVest ""SmokeShellGreen""; " \n "Dagger addItemToVest ""SmokeShellPurple""; " \n "Dagger addHeadgear ""TRYK_R_CAP_OD_US""; " \n "Dagger addGoggles ""G_Bandanna_beast""; " \n " " \n "Dagger addWeapon ""Rangefinder""; " \n " " \n "Dagger linkItem ""ItemMap""; " \n "Dagger linkItem ""ItemCompass""; " \n "Dagger linkItem ""ItemWatch""; " \n "Dagger linkItem ""tf_anprc152_1""; " \n "Dagger linkItem ""ItemGPS""; " \n "Dagger linkItem ""TRYK_Shemagh_G_NV""; " \n " " \n "Dagger setFace ""AfricanHead_03""; " \n "Dagger setSpeaker ""ace_novoice""; " \n "}];}";
 						name="Dagger";
 						description="Dagger";
 						isPlayable=1;
@@ -25582,7 +25589,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2305.4636,19.441317,18833.088};
+						position[]={2310.2334,19.375267,18833.453};
 						angles[]={0,3.3476639,0};
 					};
 					side="West";
@@ -25590,7 +25597,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{Pope addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "removeAllWeapons Pope; " \n "removeAllItems Pope; " \n "removeAllAssignedItems Pope; " \n "removeUniform Pope; " \n "removeVest Pope; " \n "removeBackpack Pope; " \n "removeHeadgear Pope; " \n "removeGoggles Pope; " \n " " \n "Pope forceAddUniform ""TRYK_U_B_Wood_T""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToUniform ""ACE_fieldDressing"";}; " \n "Pope addItemToUniform ""ACE_morphine""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToUniform ""ACE_tourniquet"";}; " \n "Pope addItemToUniform ""ACE_MapTools""; " \n "Pope addItemToUniform ""ACE_EarPlugs""; " \n "for ""_i"" from 1 to 4 do {Pope addItemToUniform ""ACE_CableTie"";}; " \n "Pope addVest ""V_PlateCarrier2_rgr_noflag_F""; " \n "Pope addItemToVest ""ACE_salineIV_500""; " \n "Pope addItemToVest ""SmokeShellOrange""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToVest ""CUP_HandGrenade_M67"";}; " \n "Pope addBackpack ""B_ViperLightHarness_ghex_F""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 30 do {Pope addItemToBackpack ""ACE_elasticBandage"";}; " \n "Pope addHeadgear ""H_Booniehat_oli""; " \n "Pope addGoggles ""G_Bandanna_oli""; " \n " " \n "Pope addWeapon ""Rangefinder""; " \n " " \n "Pope linkItem ""ItemMap""; " \n "Pope linkItem ""ItemCompass""; " \n "Pope linkItem ""tf_microdagr""; " \n "Pope linkItem ""tf_anprc152_1""; " \n "Pope linkItem ""ItemGPS""; " \n "Pope linkItem ""O_NVGoggles_ghex_F""; " \n " " \n "Pope setFace ""AfricanHead_03""; " \n "Pope setSpeaker ""cup_d_male04_gb_baf""; " \n "}";
+						init="call{Pope addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;" \n "player addEventHandler [""Respawn"",{" \n "removeAllWeapons Pope; " \n "removeAllItems Pope; " \n "removeAllAssignedItems Pope; " \n "removeUniform Pope; " \n "removeVest Pope; " \n "removeBackpack Pope; " \n "removeHeadgear Pope; " \n "removeGoggles Pope; " \n " " \n "Pope forceAddUniform ""TRYK_U_B_Wood_T""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToUniform ""ACE_fieldDressing"";}; " \n "Pope addItemToUniform ""ACE_morphine""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToUniform ""ACE_tourniquet"";}; " \n "Pope addItemToUniform ""ACE_MapTools""; " \n "Pope addItemToUniform ""ACE_EarPlugs""; " \n "for ""_i"" from 1 to 4 do {Pope addItemToUniform ""ACE_CableTie"";}; " \n "Pope addVest ""V_PlateCarrier2_rgr_noflag_F""; " \n "Pope addItemToVest ""ACE_salineIV_500""; " \n "Pope addItemToVest ""SmokeShellOrange""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToVest ""CUP_HandGrenade_M67"";}; " \n "Pope addBackpack ""B_ViperLightHarness_ghex_F""; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_morphine"";}; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_epinephrine"";}; " \n "for ""_i"" from 1 to 2 do {Pope addItemToBackpack ""ACE_salineIV_500"";}; " \n "for ""_i"" from 1 to 30 do {Pope addItemToBackpack ""ACE_elasticBandage"";}; " \n "Pope addHeadgear ""H_Booniehat_oli""; " \n "Pope addGoggles ""G_Bandanna_oli""; " \n " " \n "Pope addWeapon ""Rangefinder""; " \n " " \n "Pope linkItem ""ItemMap""; " \n "Pope linkItem ""ItemCompass""; " \n "Pope linkItem ""tf_microdagr""; " \n "Pope linkItem ""tf_anprc152_1""; " \n "Pope linkItem ""ItemGPS""; " \n "Pope linkItem ""O_NVGoggles_ghex_F""; " \n " " \n "Pope setFace ""AfricanHead_03""; " \n "Pope setSpeaker ""cup_d_male04_gb_baf""; " \n "}];}";
 						name="Pope";
 						description="Pope";
 						isPlayable=1;
@@ -36351,7 +36358,7 @@ class Mission
 					};
 					id=9222;
 					type="Land_Bandage_F";
-					atlOffset=-0.0001373291;
+					atlOffset=0.02204895;
 				};
 				class Item23
 				{
@@ -36369,7 +36376,7 @@ class Mission
 					};
 					id=9223;
 					type="Land_Bandage_F";
-					atlOffset=-0.00022888184;
+					atlOffset=0.02204895;
 				};
 				class Item24
 				{
@@ -46006,6 +46013,134 @@ class Mission
 			id=10178;
 			type="Land_ClutterCutter_large_F";
 			atlOffset=-3.8146973e-005;
+		};
+		class Item1256
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8145.5088,176.985,7880.3652};
+			};
+			id=10181;
+			type="ace_zeus_moduleSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_zeus_moduleSettings_remoteWind";
+					expression="_this setVariable ['remoteWind',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_zeus_moduleSettings_zeusAscension";
+					expression="_this setVariable ['zeusAscension',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_zeus_moduleSettings_radioOrdnance";
+					expression="_this setVariable ['radioOrdnance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_zeus_moduleSettings_revealMines";
+					expression="_this setVariable ['revealMines',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_zeus_moduleSettings_zeusBird";
+					expression="_this setVariable ['zeusBird',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_zeus_moduleSettings_autoAddObjects";
+					expression="_this setVariable ['autoAddObjects',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=6;
+			};
 		};
 	};
 	class Connections
